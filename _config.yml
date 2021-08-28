@@ -14,11 +14,11 @@ author: Some Person
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  Econometrics 1: "https://ruc-econ.github.io"
-  Econometrics 2: "https://ruc-econ.github.io"
+  UG econometrics: "https://ruc-econ.github.io"
+  PG econometrics 2: "https://ruc-econ.github.io"
 #- Beautiful Jekyll: "https://beautifuljekyll.com"
 #- Learn markdown: "https://www.markdowntutorial.com/"
-  Econometrics 3: "https://ruc-econ.github.io"
+  UG statistical learning: "https://ruc-econ.github.io"
 
 # --- Logo --- #
 
