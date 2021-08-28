@@ -15,7 +15,7 @@ author: Some Person
 
 navbar-links:
   UG econometrics: "https://ruc-econ.github.io"
-  PG econometrics 2: "https://ruc-econ.github.io"
+  PG econometrics: "https://ruc-econ.github.io"
 #- Beautiful Jekyll: "https://beautifuljekyll.com"
 #- Learn markdown: "https://www.markdowntutorial.com/"
   UG statistical learning: "https://ruc-econ.github.io"
