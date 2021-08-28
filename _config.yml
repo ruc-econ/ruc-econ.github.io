@@ -14,11 +14,11 @@ author: Some Person
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  Econometrics 1: "aboutme"
+  Econometrics 2:
+#- Beautiful Jekyll: "https://beautifuljekyll.com"
+#- Learn markdown: "https://www.markdowntutorial.com/"
+  Econometrics 3: "https://deanattali.com"
 
 # --- Logo --- #
 
