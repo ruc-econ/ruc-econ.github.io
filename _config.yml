@@ -17,7 +17,7 @@ navbar-links:
   UG econometrics: "https://ruc-econ.github.io"
   PG econometrics: "https://ruc-econ.github.io"
 #- Beautiful Jekyll: "https://beautifuljekyll.com"
-#- Learn markdown: "https://www.markdowntutorial.com/"
+  About: "https://ruc-econ.github.io/about"
   Teaching: "https://ruc-econ.github.io/teaching"
 
 # --- Logo --- #
