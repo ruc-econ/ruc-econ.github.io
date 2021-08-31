@@ -15,10 +15,10 @@ author: ruc-econ
 
 navbar-links:
   UG econometrics: "https://ruc-econ.github.io/UG_econometrics"
-  PG econometrics: "https://ruc-econ.github.io"
+  PG econometrics: "https://ruc-econ.github.io/PG_econometrics"
 #- Beautiful Jekyll: "https://beautifuljekyll.com"
   Statistical Learning: "https://ruc-econ.github.io/Statistical_learning"
-  Teaching: "https://ruc-econ.github.io/teaching"
+  #Teaching: "https://ruc-econ.github.io/teaching"
 
 # --- Logo --- #
 
