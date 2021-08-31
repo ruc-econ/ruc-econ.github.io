@@ -14,7 +14,7 @@ author: ruc-econ
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  UG econometrics: "https://ruc-econ.github.io"
+  UG econometrics: "https://ruc-econ.github.io/UG_econometrics"
   PG econometrics: "https://ruc-econ.github.io"
 #- Beautiful Jekyll: "https://beautifuljekyll.com"
   Statistical Learning: "https://ruc-econ.github.io/Statistical_learning"
