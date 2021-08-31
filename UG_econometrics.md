@@ -7,12 +7,9 @@ title: UG Econometrics
 
 ### 2.Lecture Notes
 1. [Lecture note_test1_pdf](https://ruc-econ.github.io/Lecture_Notes/UG_econometrics/JMLRdropout.pdf)
- * **matters need attention**
- * **ddl:2021-10-1 23:59:59**
 ```diff
-- text in red
-+ text in green
-! text in orange
++ matters need attention
++ ddl:2021-10-1 23:59:59
 ```
 3. [Lecture note_test2_word](https://ruc-econ.github.io/Lecture_Notes/UG_econometrics/LaTeX画神经网络图.docx)
 4. [Lecture note_test3_ppt](https://ruc-econ.github.io/Lecture_Notes/UG_econometrics/latex教程解析.ppt)
