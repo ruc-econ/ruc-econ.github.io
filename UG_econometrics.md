@@ -13,6 +13,7 @@ title: UG Econometrics
 2. [Lecture note_test2_word](https://ruc-econ.github.io/Lecture_Notes/UG_econometrics/LaTeX画神经网络图.docx)
 3. [Lecture note_test3_ppt](https://ruc-econ.github.io/Lecture_Notes/UG_econometrics/latex教程解析.ppt)
 4. [Lecture note_test4_pdf](https://ruc-econ.github.io/Lecture_Notes/UG_econometrics/神经网络与机器学习.pdf)
+5. [l5](https://ruc-econ.github.io/Lecture_Notes/UG_econometrics/中国人民大学全日制中国学生请假申请审批表.pdf)
 
 
 ### 3.Homeworks
