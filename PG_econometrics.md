@@ -6,9 +6,9 @@ title: PG Econometrics
 ### 1.Message of Course
 * **Class Time:**
 * **Class Location:**
-* **Teaching Material:**
 
 ### 2.Lecture Notes
+1. [L1](https://ruc-econ.github.io/Lecture_Notes/UG_econometrics/测试.pdf)
 
 ### 3.Homeworks
 
