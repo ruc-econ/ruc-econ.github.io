@@ -13,7 +13,7 @@ title: UG Econometrics
 
 ### 2.Lecture Notes
 1. [ug econometrics syllabus](https://ruc-econ.github.io/Lecture_Notes/UG_econometrics/ug econometrics syllabus.pdf)
-2. [LT_1_intro]
+2. [LT_1_intro](https://ruc-econ.github.io/Lecture_Notes/UG_econometrics/LT_1_intro.pdf)
 
 
 
