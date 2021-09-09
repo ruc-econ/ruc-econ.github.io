@@ -9,8 +9,8 @@ title: Statistical Learning
 
 
 ### 2.Lecture Notes
-1. [L1](https://ruc-econ.github.io/Lecture_Notes/UG_econometrics/测试.pdf)
-
+1. [syllabus_ML](https://ruc-econ.github.io/Lecture_Notes/Statistical_learning/syllabus_ML.pdf)
+2. []
 
 ### 3.Homeworks
-1. [HW1](https://ruc-econ.github.io/Lecture_Notes/UG_econometrics/测试.pdf)
+
