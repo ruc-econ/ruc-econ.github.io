@@ -17,4 +17,4 @@ title: Statistical Learning
 3. [LT 2 stat learning](https://ruc-econ.github.io/Lecture_Notes/Statistical_learning/LT2_stat_learning.pdf)
 
 ### 3.Homeworks. 
-[Markdown tutorial] (https://www.markdowntutorial.com/zh-cn/)
+[Markdown tutorial](https://www.markdowntutorial.com/zh-cn/)
