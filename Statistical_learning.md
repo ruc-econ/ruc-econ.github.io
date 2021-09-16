@@ -16,5 +16,6 @@ title: Statistical Learning
 2. [LT_1_intro](https://ruc-econ.github.io/Lecture_Notes/Statistical_learning/LT_1_intro(1).pdf)
 3. [LT 2 stat learning](https://ruc-econ.github.io/Lecture_Notes/Statistical_learning/LT2_stat_learning.pdf)
 
-### 3.Homeworks. 
-[Markdown tutorial](https://www.markdowntutorial.com/zh-cn/)
+### 3.Homeworks
+* [Markdown tutorial](https://www.markdowntutorial.com/zh-cn/)
+* [R Markdown cheat sheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf)
