@@ -12,7 +12,7 @@ title: UG Econometrics
 * 助教: 刘博（790898097@qq.com）
 
 
-### 2. Lecture Notes
+### 2. Lecture Slides
 1. [syllabus](https://ruc-econ.github.io/Lecture_Notes/UG_econometrics/ug econometrics syllabus.pdf)
 2. [LT1 introduction](https://ruc-econ.github.io/Lecture_Notes/UG_econometrics/LT_1_intro.pdf)
 3. [LT2 review of probability](https://ruc-econ.github.io/Lecture_Notes/UG_econometrics/LT_02_review(1).pdf)
