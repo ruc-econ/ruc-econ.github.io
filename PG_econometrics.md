@@ -1,6 +1,6 @@
 ---
 layout: page
-title: PG Econometrics
+title: Postgraduate Econometrics
 ---
 
 ### 1. General Information
