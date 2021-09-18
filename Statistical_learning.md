@@ -3,7 +3,7 @@ layout: page
 title: Statistical Learning
 ---
 
-### 1.general information
+### 1.General Information
 * Instructor: 马骏
 * Email: jun.ma@ruc.edu.cn
 * Office: 北校区一号楼西配楼106
@@ -11,7 +11,7 @@ title: Statistical Learning
 * Classroom: 教二2407
 
 
-### 2.Lecture Notes
+### 2.Lecture Slides
 1. [syllabus](https://ruc-econ.github.io/Lecture_Notes/Statistical_learning/syllabus_ML.pdf)
 2. [LT1 introduction](https://ruc-econ.github.io/Lecture_Notes/Statistical_learning/LT_1_intro(1).pdf)
 3. [LT2 statistical learning](https://ruc-econ.github.io/Lecture_Notes/Statistical_learning/LT2_stat_learning.pdf)
