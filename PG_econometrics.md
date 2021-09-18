@@ -8,7 +8,7 @@ title: PG Econometrics
 * **Class Location:**
 
 ### 2.Lecture Notes
-1. [L1](https://ruc-econ.github.io/Lecture_Notes/UG_econometrics/测试.pdf)
+
 
 
 ### 3.Homeworks
