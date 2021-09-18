@@ -12,9 +12,9 @@ title: Statistical Learning
 
 
 ### 2.Lecture Notes
-1. [syllabus_ML](https://ruc-econ.github.io/Lecture_Notes/Statistical_learning/syllabus_ML.pdf)
-2. [LT_1_intro](https://ruc-econ.github.io/Lecture_Notes/Statistical_learning/LT_1_intro(1).pdf)
-3. [LT 2 stat learning](https://ruc-econ.github.io/Lecture_Notes/Statistical_learning/LT2_stat_learning.pdf)
+1. [syllabus](https://ruc-econ.github.io/Lecture_Notes/Statistical_learning/syllabus_ML.pdf)
+2. [LT1 introduction](https://ruc-econ.github.io/Lecture_Notes/Statistical_learning/LT_1_intro(1).pdf)
+3. [LT2 statistical learning](https://ruc-econ.github.io/Lecture_Notes/Statistical_learning/LT2_stat_learning.pdf)
 
 ### 3.Homeworks
 * [Markdown tutorial](https://www.markdowntutorial.com/zh-cn/)
