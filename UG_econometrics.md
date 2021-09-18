@@ -13,12 +13,12 @@ title: UG Econometrics
 
 
 ### 2. Lecture Notes
-1. [ug econometrics syllabus](https://ruc-econ.github.io/Lecture_Notes/UG_econometrics/ug econometrics syllabus.pdf)
-2. [LT_1_intro](https://ruc-econ.github.io/Lecture_Notes/UG_econometrics/LT_1_intro.pdf)
-3. [LT_2_review](https://ruc-econ.github.io/Lecture_Notes/UG_econometrics/LT_02_review(1).pdf)
-4. [LT_3_conditional_expectation](https://ruc-econ.github.io/Lecture_Notes/UG_econometrics/LT_3_Conditional_Expectation(1).pdf)
-5. [LT 4 simple linear regression](https://ruc-econ.github.io/Lecture_Notes/UG_econometrics/LT_04_simple.pdf)
-6. [LT 4 properties of simple linear regression](https://ruc-econ.github.io/Lecture_Notes/UG_econometrics/LT_05_simple_properties.pdf)
+1. [syllabus](https://ruc-econ.github.io/Lecture_Notes/UG_econometrics/ug econometrics syllabus.pdf)
+2. [LT1 introduction](https://ruc-econ.github.io/Lecture_Notes/UG_econometrics/LT_1_intro.pdf)
+3. [LT2_review of probability](https://ruc-econ.github.io/Lecture_Notes/UG_econometrics/LT_02_review(1).pdf)
+4. [LT3_conditional expectation](https://ruc-econ.github.io/Lecture_Notes/UG_econometrics/LT_3_Conditional_Expectation(1).pdf)
+5. [LT4 simple linear regression](https://ruc-econ.github.io/Lecture_Notes/UG_econometrics/LT_04_simple.pdf)
+6. [LT4 properties of simple linear regression](https://ruc-econ.github.io/Lecture_Notes/UG_econometrics/LT_05_simple_properties.pdf)
 
 
 
