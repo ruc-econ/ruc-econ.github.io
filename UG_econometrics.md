@@ -1,6 +1,6 @@
 ---
 layout: page
-title: UG Econometrics
+title: Undergraduate Econometrics
 ---
 
 ### 1. General Information
