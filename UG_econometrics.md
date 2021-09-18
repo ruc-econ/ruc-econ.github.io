@@ -18,7 +18,7 @@ title: UG Econometrics
 3. [LT2 review of probability](https://ruc-econ.github.io/Lecture_Notes/UG_econometrics/LT_02_review(1).pdf)
 4. [LT3 conditional expectation](https://ruc-econ.github.io/Lecture_Notes/UG_econometrics/LT_3_Conditional_Expectation(1).pdf)
 5. [LT4 simple linear regression](https://ruc-econ.github.io/Lecture_Notes/UG_econometrics/LT_04_simple.pdf)
-6. [LT4 properties of simple linear regression](https://ruc-econ.github.io/Lecture_Notes/UG_econometrics/LT_05_simple_properties.pdf)
+6. [LT5 properties of simple linear regression](https://ruc-econ.github.io/Lecture_Notes/UG_econometrics/LT_05_simple_properties.pdf)
 
 
 
