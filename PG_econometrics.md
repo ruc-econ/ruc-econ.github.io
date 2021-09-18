@@ -9,7 +9,7 @@ title: Postgraduate Econometrics
 * Office: 北校区1号楼⻄配楼106
 * Class Time: Monday 18:00-20:25
 * Class Location: 教三3102
-* 助教: 范智颖(fzy2020102061@ruc.edu.cn)
+* 助教: 范智颖 (fzy2020102061@ruc.edu.cn)
 
 ### 2. Lecture Slides
 1. [syllabus](Lecture_Notes/PG_econometrics/g_syllabus.pdf)
