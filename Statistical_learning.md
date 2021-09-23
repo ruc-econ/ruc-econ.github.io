@@ -20,3 +20,4 @@ title: Statistical Learning
 ### 3.Homeworks
 * [Markdown tutorial](https://www.markdowntutorial.com/zh-cn/)
 * [R Markdown cheat sheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf)
+* [Homework 1](Homeworks/Statistical_learning/HW1.pdf), due: October 14, before class.
