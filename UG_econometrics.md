@@ -19,6 +19,7 @@ title: Undergraduate Econometrics
 4. [LT3 conditional expectation](https://ruc-econ.github.io/Lecture_Notes/UG_econometrics/LT_3_Conditional_Expectation(1).pdf)
 5. [LT4 simple linear regression](https://ruc-econ.github.io/Lecture_Notes/UG_econometrics/LT_04_simple.pdf)
 6. [LT5 properties of simple linear regression](https://ruc-econ.github.io/Lecture_Notes/UG_econometrics/LT_05_simple_properties.pdf)
+7. [LT6 Gauss Markov](Lecture_Notes/UG_econometrics/LT_06_gauss_markov.pdf)
 
 
 
