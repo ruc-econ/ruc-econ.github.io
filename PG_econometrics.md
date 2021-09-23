@@ -8,7 +8,7 @@ title: Postgraduate Econometrics
 * Email: jun.ma@ruc.edu.cn
 * Office: 北校区1号楼⻄配楼106
 * Class Time: Monday 18:00-20:25
-* Class Location: 教三3102
+* Class Location: 国学馆113
 * 助教: 范智颖 (fzy2020102061@ruc.edu.cn)
 
 ### 2. Lecture Slides
