@@ -24,3 +24,4 @@ title: Statistical Learning
 * [Homework 1](Homeworks/Statistical_learning/HW1.pdf), due: October 14, before class.
 
 ### 4. Labs
+* [Lab1 introduction](Homeworks/Statistical_learning/Lab_1_intro.Rmd) [pdf](Homeworks/Statistical_learning/Lab_1_intro.pdf)
