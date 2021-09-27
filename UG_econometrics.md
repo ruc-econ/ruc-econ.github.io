@@ -20,7 +20,8 @@ title: Undergraduate Econometrics
 5. [LT4 simple linear regression](https://ruc-econ.github.io/Lecture_Notes/UG_econometrics/LT_04_simple.pdf)
 6. [LT5 properties of simple linear regression](https://ruc-econ.github.io/Lecture_Notes/UG_econometrics/LT_05_simple_properties.pdf)
 7. [LT6 Gauss Markov](Lecture_Notes/UG_econometrics/LT_06_gauss_markov.pdf)
-
+8. [LT7 standard errors](Lecture_Notes/UG_econometrics/LT_07_errors_variance.pdf)
+9. [LT8 confidence interval](Lecture_Notes/UG_econometrics/LT_08_cis.pdf)
 
 
 ### 3. Homeworks
