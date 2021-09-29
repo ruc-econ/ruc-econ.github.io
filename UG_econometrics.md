@@ -25,4 +25,5 @@ title: Undergraduate Econometrics
 
 
 ### 3. Homeworks
-1. [Homework 1, due Sep 29, before class](https://ruc-econ.github.io/Homeworks/UG_econometrics/HW1.pdf)
+1. [Homework 1](https://ruc-econ.github.io/Homeworks/UG_econometrics/HW1.pdf): due Sep 29, before class
+2. [Homework 2](Homeworks/UG_econometrics/HW2.pdf): due Oct 13, before class
