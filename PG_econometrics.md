@@ -20,6 +20,8 @@ title: Postgraduate Econometrics
 6. [LT5 LS algebra](Lecture_Notes/PG_econometrics/LT5_Algebra_of_LS.pdf)
 
 ### 3. Handouts
+1. [LS regression](Lecture_Notes/PG_econometrics/regression model.pdf)
+2. [LS algebra](Lecture_Notes/PG_econometrics/LS algebra.pdf)
 
 ### 3. Homeworks
 1. [Homework 1](Homeworks/PG_econometrics/HW1.pdf), Due: October 11, before class
