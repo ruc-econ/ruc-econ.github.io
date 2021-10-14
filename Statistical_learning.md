@@ -17,6 +17,7 @@ title: Statistical Learning
 3. [LT2 statistical learning](https://ruc-econ.github.io/Lecture_Notes/Statistical_learning/LT2_stat_learning.pdf)
 4. [LT3 linear regression](Lecture_Notes/Statistical_learning/LT2_regression.pdf)
 5. [LT4 classification](Lecture_Notes/Statistical_learning/LT4_classification.pdf)
+6. [LT5 cv and bootstrap](Lecture_Notes/Statistical_learning/LT5_resampling.pdf)
 
 ### 3.Homeworks
 * [Markdown tutorial](https://www.markdowntutorial.com/zh-cn/)
@@ -26,3 +27,5 @@ title: Statistical Learning
 
 ### 4. Labs
 * [Lab1 introduction.Rmd](Homeworks/Statistical_learning/Lab_1_intro.Rmd) [.pdf](Homeworks/Statistical_learning/Lab_1_intro.pdf)
+* [Lab2 regression.Rmd](Homeworks/Statistical_learning/lab2 regression.Rmd) [.pdf](Homeworks/Statistical_learning/lab2 regression.pdf)
+* [Lab3 classification.Rmd](Homeworks/Statistical_learning/lab3 classification.Rmd) [.pdf](Homeworks/Statistical_learning/lab3 classification.pdf)
