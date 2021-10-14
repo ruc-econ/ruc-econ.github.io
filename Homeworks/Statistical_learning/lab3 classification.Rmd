@@ -1,0 +1,200 @@
+---
+title: "Classification"
+output: 
+  pdf_document: 
+    latex_engine: xelatex
+---
+
+We will use the `Smarket` data. This
+data set consists of percentage returns for the S\&P 500 stock index
+over $1,250$~days, from the beginning of 2001 until the end of
+2005. For each date, we have recorded the percentage returns for each
+of the five previous trading days, `lagone` through `lagfive`. We
+have also recorded `volume` (the number of shares traded on the previous day, in billions), `Today` (the percentage return on the date in question)  and `direction` (whether the market was `Up` or `Down` on this date). Our goal is to predict `direction` (a qualitative response) using the other features.
+```{r}
+library(MASS)
+library(ISLR2)
+attach(Smarket)
+```
+
+
+# Logistic Regression
+
+We will fit a logistic regression model in order to predict `direction` using `lagone` through `lagfive` and `volume`. The syntax of the `glm()` function is similar to that of  `lm()`,  except that we must pass in the argument `family = binomial` in order to tell `R` to run a logistic regression.
+```{r}
+glm.fits <- glm(
+    Direction ~ Lag1 + Lag2 + Lag3 + Lag4 + Lag5 + Volume,
+    data = Smarket, family = binomial
+  )
+summary(glm.fits)
+```
+
+The `predict()` function can be used to predict the probability that the market will go up, given values of the predictors.  If no data set is supplied to the `predict()` function, then the probabilities are computed for the training data. We know that these values correspond to the probability of the market going up, rather than down, because the `contrasts()` function indicates that `R` has created a dummy variable with a 1 for `Up`.
+```{r}
+glm.probs <- predict(glm.fits, type = "response")
+glm.probs[1:10]
+contrasts(Direction)
+```
+
+In order to make a prediction as to whether the market will go up or down on a particular day, we must convert these predicted probabilities into class labels, `Up` or `Down`. The following two commands create a vector of class predictions based on whether the predicted probability of a market increase is greater than or less than $0.5$.
+```{r}
+glm.pred <- rep("Down", 1250)
+glm.pred[glm.probs > .5] = "Up"
+```
+
+Given these predictions, the `table()` function can be used to produce a confusion matrix in order to determine how many observations were correctly or incorrectly classified. The `mean()` function can be used to compute the fraction of days for which the prediction was correct.
+```{r}
+table(glm.pred, Direction)
+mean(glm.pred == Direction)
+```
+
+$100\%-52.2\%=47.8\%$, is the training error rate. To estimate the test error rate, we can fit the model using part of the data, and then examine how well it predicts the held out data. To implement this strategy, we will first create a vector corresponding to the observations from 2001 through 2004. We will then use this vector to create a held out data set of observations from 2005.
+```{r}
+train <- (Year < 2005)
+Smarket.2005 <- Smarket[!train, ]
+dim(Smarket.2005)
+Direction.2005 <- Direction[!train]
+```
+
+We now fit a logistic regression model using only the subset of the observations that correspond to dates before 2005, using the `subset` argument. We then obtain predicted probabilities of the stock market going up for each of the days in our test set.
+```{r}
+glm.fits <- glm(
+    Direction ~ Lag1 + Lag2 + Lag3 + Lag4 + Lag5 + Volume,
+    data = Smarket, family = binomial, subset = train
+  )
+glm.probs <- predict(glm.fits, Smarket.2005,
+    type = "response")
+```
+
+We compute the predictions for 2005 and compare them to the actual movements of the market over that time period.
+```{r}
+glm.pred <- rep("Down", 252)
+glm.pred[glm.probs > .5] <- "Up"
+table(glm.pred, Direction.2005)
+mean(glm.pred == Direction.2005)
+mean(glm.pred != Direction.2005)
+```
+
+The test error rate estimate is $52$\,\%. Using predictors that have no relationship with the response tends to cause a deterioration in the test error rate (since such predictors cause an increase in variance without a corresponding decrease in bias). Below we have refit the logistic regression using just `lagone` and `lagtwo`, which seemed to have the highest predictive power in the original logistic regression model.
+```{r}
+glm.fits <- glm(Direction ~ Lag1 + Lag2, data = Smarket,
+    family = binomial, subset = train)
+glm.probs <- predict(glm.fits, Smarket.2005,
+    type = "response")
+glm.pred <- rep("Down", 252)
+glm.pred[glm.probs > .5] <- "Up"
+table(glm.pred, Direction.2005)
+mean(glm.pred == Direction.2005)
+106 / (106 + 76)
+```
+
+Suppose that we want to predict the returns associated with particular values of `lagone` and `lagtwo`. In particular, we want to predict `direction` on a day when `lagone` and `lagtwo` equal 1.2 and 1.1, respectively, and  on a day when they equal  1.5 and $-$0.8. We do this using the `predict()` function.
+```{r}
+predict(glm.fits,
+    newdata =
+      data.frame(Lag1 = c(1.2, 1.5),  Lag2 = c(1.1, -0.8)),
+    type = "response"
+  )
+```
+
+
+
+# Linear Discriminant Analysis
+
+We fit an LDA model using the  `lda()` function, which is part of the `MASS` library.
+```{r}
+lda.fit <- lda(Direction ~ Lag1 + Lag2, data = Smarket,
+    subset = train)
+lda.pred <- predict(lda.fit, Smarket.2005)
+```
+
+The LDA and logistic regression predictions are almost identical.
+```{r}
+lda.class <- lda.pred$class
+table(lda.class, Direction.2005)
+mean(lda.class == Direction.2005)
+```
+
+Applying a $50$\,\% threshold to the posterior probabilities allows us to recreate the predictions contained in `lda.pred$class`.
+```{r}
+sum(lda.pred$posterior[, 1] >= .5)
+sum(lda.pred$posterior[, 1] < .5)
+```
+
+Notice that the posterior probability `lda.pred$posterior[, 1]` corresponds to the probability that the market will decrease:
+```{r}
+lda.pred$posterior[1:20, 1]
+lda.class[1:20]
+```
+
+Use a posterior probability threshold other than $50$\,\% to make predictions:
+```{r}
+sum(lda.pred$posterior[, 1] > .4)
+```
+
+
+# Quadratic Discriminant Analysis
+
+```{r}
+qda.fit <- qda(Direction ~ Lag1 + Lag2, data = Smarket,
+    subset = train)
+qda.class <- predict(qda.fit, Smarket.2005)$class
+table(qda.class, Direction.2005)
+mean(qda.class == Direction.2005)
+```
+
+# Naive Bayes
+
+Naive Bayes is implemented in `R` using the `naiveBayes()` function, which is part of the `e1071` library. The syntax is identical to that of `lda()` and `qda()`.
+```{r}
+library(e1071)
+nb.fit <- naiveBayes(Direction ~ Lag1 + Lag2, data = Smarket,
+    subset = train)
+nb.class <- predict(nb.fit, Smarket.2005)
+table(nb.class, Direction.2005)
+mean(nb.class == Direction.2005)
+```
+
+Naive Bayes performs very well on this data, with accurate predictions over $59\%$ of the time. This is slightly worse than QDA, but much better than LDA.
+
+The `predict()` function can also generate estimates of the probability that each observation belongs to a particular class.
+```{r}
+nb.preds <- predict(nb.fit, Smarket.2005, type = "raw")
+nb.preds[1:5, ]
+```
+
+
+# $K$-Nearest Neighbors
+
+We will now perform KNN using the `knn()` function, which is part of the `class` library. `knn()` forms predictions using a single command. The function requires four inputs.
+
+* A matrix containing the predictors associated with the training data, labeled `train.X` below.
+* A matrix containing the predictors associated with the data for which we wish to make predictions, labeled `test.X` below.
+* A vector containing the class labels for the training observations, labeled `train.Direction` below.
+* A value for $K$, the number of nearest neighbors to be used by the classifier.
+
+We use the `cbind()` function to bind the `lagone` and `lagtwo` variables together into two matrices, one for the training set and the other for the test set.
+
+```{r}
+library(class)
+train.X <- cbind(Lag1, Lag2)[train, ]
+test.X <- cbind(Lag1, Lag2)[!train, ]
+train.Direction <- Direction[train]
+```
+
+Now the `knn()` function can be used to predict the market's movement for the dates in 2005. We set a random seed before we apply `knn()` because if several observations are tied as nearest neighbors, then `R` will randomly break the tie. Therefore, a seed must be set in order to ensure reproducibility of results.
+```{r chunk47}
+set.seed(1)
+knn.pred <- knn(train.X, test.X, train.Direction, k = 1)
+table(knn.pred, Direction.2005)
+mean(knn.pred == Direction.2005)
+```
+
+We repeat the analysis using $K=3$.
+```{r}
+knn.pred <- knn(train.X, test.X, train.Direction, k = 3)
+table(knn.pred, Direction.2005)
+mean(knn.pred == Direction.2005)
+```
+
+The results have improved slightly. But increasing $K$ further turns out to provide no further improvements. It appears that for this data, QDA provides the best results of the methods that we have examined so far.

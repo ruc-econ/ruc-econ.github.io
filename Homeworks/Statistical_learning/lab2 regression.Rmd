@@ -1,0 +1,128 @@
+---
+title: "Regression"
+output:
+  pdf_document: 
+    latex_engine: xelatex
+  html_document:
+    df_print: paged
+---
+
+The `library()` function is used to load libraries (functions and data sets that are not included in the base `R`). Load the `MASS` and `ISLR2` packages.
+
+```{r}
+library(MASS)
+library(ISLR2)
+```
+
+# Simple Linear Regression
+
+The `Boston`  data: `medv` (median house value) for $506$ census tracts in Boston. Predict `medv` using $12$ predictors such as `rmvar` (average number of  rooms per house), `age` (average age of houses), and `lstat` (percent of households with low socioeconomic status). We will start by using the `lm()` function to fit a simple  linear regression model, with `medv` as the response and `lstat`  as the predictor.
+
+```{r, error=TRUE}
+lm.fit <- lm(medv ~ lstat)
+```
+
+The command causes an error because `R` does not know where to find the variables `medv` and `lstat`. The next line tells `R` that the variables are in `Boston`. If we attach `Boston`, the first line works fine because `R` now recognizes the variables.
+
+```{r}
+lm.fit <- lm(medv ~ lstat, data = Boston)
+attach(Boston)
+lm.fit <- lm(medv ~ lstat)
+```
+
+If we type `lm.fit`,  some basic information about the model is output. For more detailed information, we use `summary(lm.fit)`. This gives us $p$-values and standard errors for the coefficients, as well as the $R^2$ statistic and $F$-statistic for the model.
+```{r}
+lm.fit
+summary(lm.fit)
+```
+
+To see the list of objects in `lm.fit` and get access to one of it:
+```{r}
+names(lm.fit)
+lm.fit$coefficients
+```
+
+In order to obtain a confidence interval for the coefficient estimates, we can use the `confint()` command. 
+```{r}
+confint(lm.fit)
+```
+
+The `predict()` function can be used to produce confidence intervals and prediction intervals for the prediction of `medv` for a given value of `lstat`.
+
+```{r}
+predict(lm.fit, data.frame(lstat = (c(5, 10, 15))),
+    interval = "confidence")
+predict(lm.fit, data.frame(lstat = (c(5, 10, 15))),
+    interval = "prediction")
+```
+
+
+# Multiple Linear Regression
+
+In order to fit a multiple linear regression model using least squares, we again use the `lm()` function.
+```{r}
+lm.fit <- lm(medv ~ lstat + age, data = Boston)
+summary(lm.fit)
+```
+
+Perform a regression using all of the predictors.
+```{r}
+lm.fit <- lm(medv ~ ., data = Boston)
+summary(lm.fit)
+```
+
+We may wish to run a regression excluding `age`.
+```{r}
+lm.fit1 <- lm(medv ~ . - age, data = Boston)
+summary(lm.fit1)
+```
+
+## Interaction Terms
+
+The syntax `lstat:black` tells `R` to include an interaction term between `lstat` and `black`. The syntax `lstat * age` simultaneously includes `lstat`, `age`, and the interaction term `lstat`$\times$`age` as predictors.
+```{r}
+summary(lm(medv ~ lstat * age, data = Boston))
+```
+
+
+## Non-linear Transformations of the Predictors
+
+Given a predictor $X$, we can create a predictor $X^2$ using `I(X^2)`. The function `I()` is needed since the `^` has a special meaning in a formula object. We now perform a regression of `medv` onto `lstat` and `lstat^2`.
+```{r}
+lm.fit2 <- lm(medv ~ lstat + I(lstat^2))
+summary(lm.fit2)
+```
+
+Compare:
+```{r}
+summary(lm(medv ~ lstat + lstat^2))
+```
+
+In order to create a cubic fit, we can include a predictor of the form `I(X^3)`. A better approach involves using the `poly()` function to create the polynomial within `lm()`.
+```{r}
+lm.fit5 <- lm(medv ~ poly(lstat, 5))
+summary(lm.fit5)
+```
+
+Log transformation:
+```{r}
+summary(lm(medv ~ log(rm), data = Boston))
+```
+
+
+## Qualitative Predictors
+
+We will now examine the `Carseats` data, which is part of the `ISLR2` library. We will  attempt to predict `Sales`
+(child car seat sales) in $400$ locations based on a number of predictors. The `Carseats` data includes qualitative predictors such as `shelveloc`, an indicator of the quality of the shelving location. The predictor `shelveloc` takes on three possible values:  Bad, Medium, and Good. Given a qualitative variable such as `shelveloc`, `R` generates dummy variables automatically. Below we fit a multiple regression model that includes some interaction terms.
+```{r}
+lm.fit <- lm(Sales ~ . + Income:Advertising + Price:Age, 
+    data = Carseats)
+summary(lm.fit)
+```
+
+The `contrasts()` function returns the coding that `R` uses for the dummy variables. `R` has created a `ShelveLocGood` dummy variable that takes on a value of 1 if the shelving location is good, and 0 otherwise. It has also created a `ShelveLocMedium` dummy variable that equals 1 if the shelving location is medium, and 0 otherwise. A bad shelving location corresponds to a zero for each of the two dummy variables.
+```{r}
+attach(Carseats)
+contrasts(ShelveLoc)
+```
+
