@@ -24,6 +24,7 @@ title: Statistical Learning
 * [R Markdown cheat sheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf)
 * [ISL 2nd edition data sets](Homeworks/Statistical_learning/ALL+CSV+FILES+-+2nd+Edition+-+corrected.zip)
 * [Homework 1](Homeworks/Statistical_learning/HW1.pdf), due: October 14, before class.
+* [Homework 1 answer](Homeworks/Statistical_learning/HW1_conceptual_answer.pdf), conceptual part
 * [Homework 2](Homeworks/Statistical_learning/HW2.pdf), due: October 28, before class.
 
 ### 4. Labs
