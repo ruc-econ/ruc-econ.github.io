@@ -31,3 +31,4 @@ title: Statistical Learning
 * [Lab1 introduction.Rmd](Homeworks/Statistical_learning/Lab_1_intro.Rmd) [.pdf](Homeworks/Statistical_learning/Lab_1_intro.pdf)
 * [Lab2 regression.Rmd](Homeworks/Statistical_learning/lab2 regression.Rmd) [.pdf](Homeworks/Statistical_learning/lab2 regression.pdf)
 * [Lab3 classification.Rmd](Homeworks/Statistical_learning/lab3 classification.Rmd) [.pdf](Homeworks/Statistical_learning/lab3 classification.pdf)
+* [Lab4 cv.Rmd](Homeworks/Statistical_learning/lab4 cv.Rmd) [.pdf](Homeworks/Statistical_learning/lab4-cv.pdf)
