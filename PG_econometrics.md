@@ -18,7 +18,7 @@ title: Postgraduate Econometrics
 4. [LT3 review of probability](Lecture_Notes/PG_econometrics/LT3_probability.pdf)
 5. [LT4 CEF, projection and linear model](Lecture_Notes/PG_econometrics/LT4_CEF_2.pdf)
 6. [LT5 LS algebra](Lecture_Notes/PG_econometrics/LT5_Algebra_of_LS.pdf)
-7. [LT6 LS finite sample](Lecture_Notes/PG_econometrics/LT6_finite_sample_LS.pdf)
+7. [LT6 LS finite sample](Lecture_Notes/PG_econometrics/LT6_finite_sample_LS oct 25.pdf), updated: Oct 25
 
 ### 3. Handouts
 1. [LS regression](Lecture_Notes/PG_econometrics/regression model.pdf)
