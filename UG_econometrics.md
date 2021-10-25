@@ -26,6 +26,7 @@ title: Undergraduate Econometrics
 11. [LT10 multiple regression](Lecture_Notes/UG_econometrics/LT10_mreg.pdf)
 12. [LT11 R squared](Lecture_Notes/UG_econometrics/LT11_R2.pdf)
 13. [LT12 multiple regression properties](Lecture_Notes/UG_econometrics/LT12_mreg_properties.pdf)
+14. [LT13 multiple regression testing](Lecture_Notes/UG_econometrics/LT_13_mreg_testing.pdf)
 
 
 ### 3. Homeworks
