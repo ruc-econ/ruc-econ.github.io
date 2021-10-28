@@ -18,6 +18,7 @@ title: Statistical Learning
 4. [LT3 linear regression](Lecture_Notes/Statistical_learning/LT3_regression_oct14.pdf), updated: Oct 14
 5. [LT4 classification](Lecture_Notes/Statistical_learning/LT4_classification.pdf)
 6. [LT5 cv and bootstrap](Lecture_Notes/Statistical_learning/LT5_resampling_oct21.pdf), updated: Oct 21
+7. [LT6 model selection](Lecture_Notes/Statistical_learning/LT6_model_selection.pdf)
 
 ### 3.Homeworks
 * [Markdown tutorial](https://www.markdowntutorial.com/zh-cn/)
