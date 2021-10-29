@@ -36,5 +36,6 @@ title: Undergraduate Econometrics
 3. [Homework 2](Homeworks/UG_econometrics/HW2.pdf): due Oct 13, before class
 4. [Homework 2 answer](Homeworks/UG_econometrics/HW2_answer.pdf)
 5. [Homework 3](Homeworks/UG_econometrics/HW3.pdf): due Oct 29, before class
-6. [Mid-term exam 2020](Homeworks/UG_econometrics/Midterm_2020.pdf)
-7. [Homework 4](Homeworks/UG_econometrics/HW4.pdf): due Oct 12, before class
+6. [Homework 3 answer](Homeworks/UG_econometrics/HW3_answer.pdf)
+7. [Mid-term exam 2020](Homeworks/UG_econometrics/Midterm_2020.pdf)
+8. [Homework 4](Homeworks/UG_econometrics/HW4.pdf): due Oct 12, before class
