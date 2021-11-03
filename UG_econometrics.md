@@ -34,7 +34,7 @@ title: Undergraduate Econometrics
 1. [Homework 1](https://ruc-econ.github.io/Homeworks/UG_econometrics/HW1.pdf): due Sep 29, before class 
 2. [Homework 1 answer](Homeworks/UG_econometrics/HW1_with_answer.pdf)
 3. [Homework 2](Homeworks/UG_econometrics/HW2.pdf): due Oct 13, before class
-4. [Homework 2 answer](Homeworks/UG_econometrics/HW2_answer.pdf)
+4. [Homework 2 answer](Homeworks/UG_econometrics/HW2_answer.pdf) (updated: Nov 3)
 5. [Homework 3](Homeworks/UG_econometrics/HW3.pdf): due Oct 29, before class
 6. [Homework 3 answer](Homeworks/UG_econometrics/HW3_answer.pdf)
 7. [Mid-term exam 2020](Homeworks/UG_econometrics/Midterm_2020.pdf)
