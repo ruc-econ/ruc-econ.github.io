@@ -10,6 +10,7 @@ title: Undergraduate Econometrics
 * Time: Wednesday 19:40-21:10; Friday 10:00-11:30
 * Classroom: 教二2209
 * 助教: 刘博（790898097@qq.com）
+* **期中考试地点：教三3310；时间：11月5日上午10:00-11:50；允许携带计算器、无通讯功能电子词典、一张A4纸正反面手写任意内容。**
 
 
 ### 2. Lecture Slides
