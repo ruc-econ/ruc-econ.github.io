@@ -37,4 +37,4 @@ title: Statistical Learning
 * [Lab3 classification.Rmd](Homeworks/Statistical_learning/lab3 classification.Rmd) [.pdf](Homeworks/Statistical_learning/lab3 classification.pdf)
 * [Lab4 cv.Rmd](Homeworks/Statistical_learning/lab4 cv.Rmd) [.pdf](Homeworks/Statistical_learning/lab4-cv.pdf)
 * [Lab5 model.Rmd](Lecture_Notes/Statistical_learning/lab5 model selection.Rmd) [.pdf](Lecture_Notes/Statistical_learning/lab5-model-selection.pdf)
-* [Lab6 nonlinear.Rmd](Lecture_Notes/Statistical_learning/lab5-model-selection.Rmd) [.pdf](Lecture_Notes/Statistical_learning/lab5-model-selection.pdf)
+* [Lab6 nonlinear.Rmd](Lecture_Notes/Statistical_learning/lab6-nonlinear.Rmd) [.pdf](Lecture_Notes/Statistical_learning/lab6-nonlinear.pdf)
