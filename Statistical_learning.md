@@ -19,7 +19,7 @@ title: Statistical Learning
 5. [LT4 classification](Lecture_Notes/Statistical_learning/LT4_classification_oct28.pdf), updated: Oct 28
 6. [LT5 cv and bootstrap](Lecture_Notes/Statistical_learning/LT5_resampling_oct21.pdf), updated: Oct 21
 7. [LT6 model selection](Lecture_Notes/Statistical_learning/LT6_model_selection_nov04.pdf), updated: Nov 04
-8. [LT7 nonlinearity](Lecture_Notes/Statistical_learning/LT7_nonlinear.pdf)
+8. [LT7 nonlinearity](Lecture_Notes/Statistical_learning/LT7 nonlinear model.pdf)
 
 ### 3.Homeworks
 * [Markdown tutorial](https://www.markdowntutorial.com/zh-cn/)
