@@ -29,6 +29,8 @@ title: Undergraduate Econometrics
 13. [LT12 multiple regression properties](Lecture_Notes/UG_econometrics/LT12_mreg_properties.pdf)
 14. [LT13 multiple regression testing](Lecture_Notes/UG_econometrics/LT_13_mreg_testing_oct28.pdf) (updated: Oct 28)
 15. [LT14 dummy variables](Lecture_Notes/UG_econometrics/LT14_dummy.pdf)
+16. [LT15 consistency](Lecture_Notes/UG_econometrics/LT15_consistency.pdf)
+17. [LT16 asy normality](Lecture_Notes/UG_econometrics/LT16_asy_norm.pdf)
 
 
 ### 3. Homeworks
