@@ -20,6 +20,7 @@ title: Statistical Learning
 6. [LT5 cv and bootstrap](Lecture_Notes/Statistical_learning/LT5_resampling_oct21.pdf), updated: Oct 21
 7. [LT6 model selection](Lecture_Notes/Statistical_learning/LT6_model_selection_nov04.pdf), updated: Nov 04
 8. [LT7 nonlinear model](Lecture_Notes/Statistical_learning/LT7_nonlinear model.pdf)
+9. [LT8 tree](Lecture_Notes/Statistical_learning/LT8_tree.pdf)
 
 ### 3.Homeworks
 * [Markdown tutorial](https://www.markdowntutorial.com/zh-cn/)
@@ -37,4 +38,4 @@ title: Statistical Learning
 * [Lab3 classification.Rmd](Homeworks/Statistical_learning/lab3 classification.Rmd) [.pdf](Homeworks/Statistical_learning/lab3 classification.pdf)
 * [Lab4 cv.Rmd](Homeworks/Statistical_learning/lab4 cv.Rmd) [.pdf](Homeworks/Statistical_learning/lab4-cv.pdf)
 * [Lab5 model.Rmd](Lecture_Notes/Statistical_learning/lab5 model selection.Rmd) [.pdf](Lecture_Notes/Statistical_learning/lab5-model-selection.pdf)
-* [Lab6 nonlinear.Rmd](Lecture_Notes/Statistical_learning/lab6-nonlinear.Rmd) [.pdf](Lecture_Notes/Statistical_learning/lab6-nonlinear.pdf)
+* [Lab6 nonlinear.Rmd](Lecture_Notes/Statistical_learning/lab6 nonlinear.Rmd) [.pdf](Lecture_Notes/Statistical_learning/lab6-nonlinear.pdf)
