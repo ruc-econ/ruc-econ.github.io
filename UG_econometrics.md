@@ -31,7 +31,7 @@ title: Undergraduate Econometrics
 15. [LT14 dummy variables](Lecture_Notes/UG_econometrics/LT14_dummy.pdf)
 16. [LT15 consistency](Lecture_Notes/UG_econometrics/LT15_consistency.pdf)
 17. [LT16 asy normality](Lecture_Notes/UG_econometrics/LT16_asy_norm.pdf)
-18. [LT17 misspecification](Lecture_Notes/Statistical_learning/LT17_misspec.pdf)
+18. [LT17 misspecification](Lecture_Notes/UG_econometrics/LT17_misspec.pdf)
 
 
 ### 3. Homeworks
