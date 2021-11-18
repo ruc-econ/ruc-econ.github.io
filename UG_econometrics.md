@@ -33,6 +33,7 @@ title: Undergraduate Econometrics
 17. [LT16 asy normality](Lecture_Notes/UG_econometrics/LT16_asy_norm.pdf)
 18. [LT17 misspecification](Lecture_Notes/UG_econometrics/LT17_misspec.pdf)
 19. [LT18 asymptotic variance](Lecture_Notes/UG_econometrics/LT_18_asy_var.pdf)
+20. [LT19 IV](Lecture_Notes/UG_econometrics/LT19_IV.pdf)
 
 
 ### 3. Homeworks
