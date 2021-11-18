@@ -22,6 +22,7 @@ title: Statistical Learning
 8. [LT7 nonlinear model](Lecture_Notes/Statistical_learning/LT7_nonlinear model.pdf)
 9. [LT8 tree](Lecture_Notes/Statistical_learning/LT8_tree.pdf)
 10. [LT9 recap](Lecture_Notes/Statistical_learning/LT9_recap.pdf)
+11. [final project](Lecture_Notes/Statistical_learning/final project.pdf)
 
 ### 3.Homeworks
 * [Markdown tutorial](https://www.markdowntutorial.com/zh-cn/)
