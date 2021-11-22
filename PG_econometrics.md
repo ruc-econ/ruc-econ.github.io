@@ -35,4 +35,6 @@ title: Postgraduate Econometrics
 3. [Homework 2](Homeworks/PG_econometrics/HW2.pdf), Due: October 25, before class
 4. [Homework 2 answer](Homeworks/PG_econometrics/HW2_answer.pdf)
 5. [Homework 3](Homeworks/PG_econometrics/HW3.pdf), Due: November 8, before class
-6. [Mid-term exam 2020](Homeworks/PG_econometrics/Midterm_adv_2020.pdf) 
+6. [Homework 3 answer](Homeworks/PG_econometrics/HW3_answer.pdf)
+7. [Mid-term exam 2020](Homeworks/PG_econometrics/Midterm_adv_2020.pdf)
+8. [Homework 4](Homeworks/PG_econometrics/HW4.pdf), Due: December 6, before class
