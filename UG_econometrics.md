@@ -35,6 +35,7 @@ title: Undergraduate Econometrics
 19. [LT18 asymptotic variance](Lecture_Notes/UG_econometrics/LT_18_asy_var.pdf)
 20. [LT19 IV](Lecture_Notes/UG_econometrics/LT19_IV.pdf)
 21. [LT20 2SLS](Lecture_Notes/UG_econometrics/LT20_2SLS.pdf)
+22. [LT21 Hausman](Lecture_Notes/UG_econometrics/LT21_Hausman.pdf)
 
 
 ### 3. Homeworks
