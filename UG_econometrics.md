@@ -36,6 +36,7 @@ title: Undergraduate Econometrics
 20. [LT19 IV](Lecture_Notes/UG_econometrics/LT19_IV.pdf)
 21. [LT20 2SLS](Lecture_Notes/UG_econometrics/LT20_2SLS.pdf)
 22. [LT21 Hausman](Lecture_Notes/UG_econometrics/LT21_Hausman.pdf)
+23. [LT22 MLE](Lecture_Notes/UG_econometrics/LT22_MLE.pdf)
 
 
 ### 3. Homeworks
