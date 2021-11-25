@@ -51,5 +51,5 @@ title: Undergraduate Econometrics
 10. [Homework 5](Homeworks/UG_econometrics/HW5.pdf): due Dec 3, before class
 
 ### 4. References
-1. standard error for linear regression with many regressors: [Cattaneo, Jansson, and Newey](References/UG_econometrics/Cattaneo-Inference in Linear Regression Models with Many Covariates and Heteroscedasticity-2018-Journal of the American Statistical Association.pdf)
-2. problem with weak instrument [Bound, Jaeger, and Baker](References/UG_econometrics/Bound-Problems with instrumental variables estimation when the correlation between the instruments and the endogenous explanatory variable is weak-1995-Journal of the American Statistical Association.pdf)
+* standard error for linear regression with many regressors: [Cattaneo, Jansson, and Newey](References/UG_econometrics/Cattaneo-Inference in Linear Regression Models with Many Covariates and Heteroscedasticity-2018-Journal of the American Statistical Association.pdf)
+* problem with weak instrument [Bound, Jaeger, and Baker](References/UG_econometrics/Bound-Problems with instrumental variables estimation when the correlation between the instruments and the endogenous explanatory variable is weak-1995-Journal of the American Statistical Association.pdf)
