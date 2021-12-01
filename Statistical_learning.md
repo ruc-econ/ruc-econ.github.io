@@ -24,6 +24,8 @@ title: Statistical Learning
 10. [LT9 recap](Lecture_Notes/Statistical_learning/LT9_recap.pdf)
 11. [final project](Lecture_Notes/Statistical_learning/final project.pdf)
 12. [LT10 adaptive LASSO](Lecture_Notes/Statistical_learning/LT10_LASSO.pdf)
+13. [LT11 hd LASSO](Lecture_Notes/Statistical_learning/LT11_hd_LASSO.pdf)
+14. [LT12 double LASSO](Lecture_Notes/Statistical_learning/LT12_double_LASSO.pdf), incomplete
 
 ### 3.Homeworks
 * [Markdown tutorial](https://www.markdowntutorial.com/zh-cn/)
