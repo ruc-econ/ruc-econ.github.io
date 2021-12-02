@@ -1,0 +1,57 @@
+---
+title: "Lab 4: Adaptive LASSO"
+output: 
+  pdf_document: 
+    latex_engine: xelatex
+---
+
+```{r,warning=FALSE}
+library(glmnet)
+library(AER)
+?Fatalities
+data(Fatalities)
+F=na.omit(Fatalities)
+```
+
+We define the dependent variable as the rate of alcohol-involved vehicle fatalities:
+```{r}
+F$afatal_rate=F$afatal/F$pop
+```
+
+
+We run OLS first: 
+```{r}
+OUT=lm(afatal_rate~spirits+unemp+income+beertax+baptist+mormon+drinkage+dry+youngdrivers
+       +miles+breath+jail+service+pop+state+year,data=F)
+summary(OUT)
+```
+
+
+OLS weights for adaptive Lasso:
+```{r}
+w=coef(OUT)[-1] # not penalizing the intercept
+w=1/abs(w)
+```
+
+Model matrix for glmnet():
+```{r}
+y=F$afatal_rate
+x=model.matrix(afatal_rate~spirits+unemp+income+beertax+baptist
+               +mormon+drinkage+dry+youngdrivers+miles+breath+jail
+               +service+pop+state+year,F)[,-1] # drop the intercept
+```
+
+* Cross-validation with adaptive weights:
+```{r}
+set.seed(1)
+CV=cv.glmnet(x,y,alpha=1,family="gaussian",penalty.factor=w,standardize=FALSE)
+plot(CV)
+```
+
+Selected coefficients:
+```{r}
+coef(CV,s=CV$lambda.1se)
+```
+
+
+
