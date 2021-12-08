@@ -37,7 +37,7 @@ title: Undergraduate Econometrics
 21. [LT20 2SLS](Lecture_Notes/UG_econometrics/LT20_2SLS.pdf)
 22. [LT21 Hausman](Lecture_Notes/UG_econometrics/LT21_Hausman.pdf)
 23. [LT22 MLE](Lecture_Notes/UG_econometrics/LT22_MLE.pdf)
-24. [LT23 binary](Lecture_Notes/UG_econometrics/LT23_binary.pdf)
+24. [LT23 binary](Lecture_Notes/UG_econometrics/LT23_binary.pdf); STATA: https://www3.nd.edu/~rwilliam/stats2/Logistic-Stata.pdf
 25. [LT24 multinomial](Lecture_Notes/UG_econometrics/LT24_multinomial.pdf); STATA: [conditional logit](References/UG_econometrics/rasclogit.pdf), [ordered logit](References/UG_econometrics/rologit.pdf), [multinomial logit](References/UG_econometrics/rmlogit.pdf)
 
 
