@@ -51,7 +51,7 @@ title: Statistical Learning
 * [Lab9 naive post-LASSO](Lecture_Notes/Statistical_learning/lab9_Post_LASSO.Rmd) [.pdf](Lecture_Notes/Statistical_learning/lab9_Post_LASSO.pdf)
 
 ### 5. Reference
-* adaptive LASSO: [Zou 2006](References/Statistical_learning/Zou-The Adaptive Lasso and Its Oracle Properties-2012-Journal of the American Statistical Association.pdf)
+* Adaptive LASSO: [Zou 2006](References/Statistical_learning/Zou-The Adaptive Lasso and Its Oracle Properties-2012-Journal of the American Statistical Association.pdf)
 * Review papers: [Belloni and Chernozhukov](References/Statistical_learning/LASSO_LectureNotes_AfterFinal_ArXiV.pdf), [Chernozhukov, Hansen and Spindler](References/Statistical_learning/Chernozhukov-Valid Post-Selection and Post-Regularization Inference- An Elementary, General Approach-2015-Annual Review of Economics.pdf)
 * [High-dimensional econometrics in R](References/Statistical_learning/high dimensional metrics in R.pdf)
 * [hdm: high-dimensional metrics](References/Statistical_learning/hdm high dimensional metrics.pdf)
