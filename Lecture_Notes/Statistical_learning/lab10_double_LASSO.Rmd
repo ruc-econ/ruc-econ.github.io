@@ -1,0 +1,140 @@
+---
+title: 'Lab 10: Double LASSO'
+output:
+  pdf_document:
+    latex_engine: xelatex
+  html_document:
+    df_print: paged
+---
+
+## Monte Carlo simulations
+
+```{r}
+library(hdm)
+?rlassoEffect
+n=100 
+R=300 
+rho=1
+beta1=0
+beta2=0.35
+```
+
+Write a function for generating data:
+```{r}
+data_sim<-function(n,beta1,beta2,rho){
+  X=matrix(rnorm(n*3),ncol=3)
+  X[,2]<-rho*X[,1]+X[,2]
+  Y=beta1*X[,1]+beta2*X[,2]+rnorm(n)
+  data<-list(Y=Y,X=X)
+}
+```
+
+Generate data on the main regressor (D), potential controls, and the dependent variable:
+```{r}
+set.seed(5,sample.kind = "Rejection")
+data<-data_sim(n,beta1,beta2,rho)
+y=data$Y #dep. variable
+Controls=data$X[,-1] # controls
+D=data$X[,1] # the main regressor for which the effect is estimated
+```
+
+Run double LASSO:
+```{r}
+Effect<-rlassoEffect(Controls,y,D,method="double selection")
+summary(Effect)
+```
+Objects inside:
+```{r}
+names(Effect)
+```
+Included controls and t-statistic on D:
+```{r}
+Effect$selection.index
+Effect$t
+```
+
+We run the simulations using the setup from lab 9.
+```{r}
+rho=1
+set.seed(6064,sample.kind = "Rejection")
+T_Beta1_post=rep(0,R) # Vector to store t-stats for the main regressor
+for (r in 1:R){
+  data<-data_sim(n,beta1,beta2,rho)
+  Effect<-rlassoEffect(data$X[,-1],data$Y,data$X[,1],method="double selection")
+  T_Beta1_post[r]=Effect$t 
+}
+```
+
+Plot of the distribution of the post-double-Lasso $t$-statistic:
+```{r}
+low=min(T_Beta1_post)
+high=max(T_Beta1_post)
+step=(high-low)/20
+hist(T_Beta1_post,breaks=seq(low-2*step,high+2*step,step),xlab="estimates",main="The exact distribution of the post-Double-LASSO t-statistic vs N(0,1)",freq=FALSE,ylim=c(0,0.5))
+
+# add a vertical line at the true value
+abline(v=beta1,col="blue")
+
+# add the plot of the N(0,1) pdf 
+x=seq(-4,4,0.01)
+f=exp(-x^2/2)/sqrt(2*pi) 
+lines(x,f,col="red")
+```
+
+## Illustration of double LASSO with cross country growth data
+
+The model is $\Delta\log (GDP_{it})=\alpha \cdot GDP_{i0}+U_i$. Hypothesis: $\alpha <0$. Less developed countries catch up with more developed. 
+```{r}
+data("GrowthData")
+?GrowthData
+names(GrowthData)
+```
+
+The hypothesis fails:
+```{r}
+summary(lm(Outcome~gdpsh465,data=GrowthData))
+```
+
+An alternative model controls for the institutional and technological characteristics: $\Delta\log (GDP_{it})=\alpha \cdot GDP_{i0}+X_i'\beta+U_i$.
+
+There are a lot of potential controls:
+```{r}
+dim(GrowthData)
+```
+
+Let's set up estimation
+```{r}
+names(GrowthData)
+y=as.vector(GrowthData$Outcome)
+D=as.vector(GrowthData$gdpsh465)
+Controls=as.matrix(GrowthData)[,-c(1,2,3)]
+```
+
+We run OLS with all controls. The estimate is negative but the standard error is too large, since there are too many controls.
+```{r}
+Full=lm(y~D+Controls)
+head(coef(summary(Full)),2)
+```
+
+Post-LASSO with Double LASSO
+```{r}
+Effect<-rlassoEffect(Controls,y,D,method="double selection")
+summary(Effect)
+```
+
+Included controls:
+```{r}
+Effect$selection.index
+sum(Effect$selection.index==TRUE)
+```
+
+## The partialling out approach
+```{r}
+Effect_PO<-rlassoEffect(Controls,y,D,method="partialling out")
+summary(Effect_PO)
+```
+
+```{r}
+Effect_PO$selection.index
+sum(Effect_PO$selection.index==TRUE)
+```
