@@ -54,7 +54,8 @@ title: Undergraduate Econometrics
 8. [Homework 4](Homeworks/UG_econometrics/HW4.pdf): due Nov 12, before class
 9. [Homework 4 answer](Homeworks/UG_econometrics/HW4_answer.pdf)
 10. [Homework 5](Homeworks/UG_econometrics/HW5.pdf): due Dec 3, before class
-11. [Homework 6](Homeworks/UG_econometrics/HW6.pdf): due Dec 22, before class 
+11. [Homework 5 answer](Homeworks/UG_econometrics/HW5_answer.pdf)
+12. [Homework 6](Homeworks/UG_econometrics/HW6.pdf): due Dec 22, before class 
 
 ### 4. References
 * standard error for linear regression with many regressors: [Cattaneo, Jansson, and Newey](References/UG_econometrics/Cattaneo-Inference in Linear Regression Models with Many Covariates and Heteroscedasticity-2018-Journal of the American Statistical Association.pdf)
