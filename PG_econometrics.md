@@ -23,7 +23,7 @@ title: Postgraduate Econometrics
 7. [LT6 LS finite sample](Lecture_Notes/PG_econometrics/LT6_finite_sample_LS oct 25.pdf), updated: Oct 25
 8. [LT7 large sample](Lecture_Notes/PG_econometrics/LT7_large_sample.pdf)
 9. [LT8 LS asymptotics](Lecture_Notes/PG_econometrics/LT8_Asymptotic_LS_nov29.pdf), updated: Nov 29
-10. [LT9 IV](Lecture_Notes/PG_econometrics/LT9_IV_dec13.pdf)
+10. [LT9 IV](Lecture_Notes/PG_econometrics/LT9_IV_dec13.pdf), updated: Dec 13
 11. [LT10 GMM](Lecture_Notes/PG_econometrics/LT10_GMM.pdf)
 
 ### 3. Handouts
