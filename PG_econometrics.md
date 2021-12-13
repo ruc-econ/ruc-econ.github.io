@@ -30,6 +30,10 @@ title: Postgraduate Econometrics
 1. [LS regression](Lecture_Notes/PG_econometrics/regression model.pdf)
 2. [LS algebra](Lecture_Notes/PG_econometrics/LS algebra.pdf)
 3. [large sample](Lecture_Notes/PG_econometrics/Large_Sample.pdf)
+4. [restricted LS](Lecture_Notes/PG_econometrics/Restricted_LS.pdf)
+5. [hypothesis testing](Lecture_Notes/PG_econometrics/Hypothesis_Testing.pdf)
+6. [IV](Lecture_Notes/PG_econometrics/IV.pdf)
+7. [GMM](Lecture_Notes/PG_econometrics/GMM.pdf)
 
 ### 3. Homeworks
 1. [Homework 1](Homeworks/PG_econometrics/HW1.pdf), Due: October 11, before class
