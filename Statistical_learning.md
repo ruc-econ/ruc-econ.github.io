@@ -63,3 +63,4 @@ title: Statistical Learning
 * [High-dimensional econometrics in R](References/Statistical_learning/high dimensional metrics in R.pdf)
 * [hdm: high-dimensional metrics](References/Statistical_learning/hdm high dimensional metrics.pdf)
 * Double LASSO: [Belloni, Chernozhukov and Hansen, 2014](References/Statistical_learning/belloni2013.pdf)
+* LASSO for IV: [Belloni, Chen, Chernozhukov and Hansen, 2012](References/Statistical_learning/Belloni-Sparse Models and Methods for Optimal Instruments With an Application to Eminent Domain-2012-Econometrica.pdf); [Chernozhukov, Hansen and Spindler, 2015](References/Statistical_learning/Chernozhukov-Post-Selection and Post-Regularization Inference in Linear Models with Many Controls and Instruments-2015-American Economic Review.pdf)
