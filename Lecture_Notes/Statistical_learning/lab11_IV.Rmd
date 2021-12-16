@@ -1,0 +1,135 @@
+---
+title: 'Lab 11: LASSO for Instrumental Variable Models'
+output:
+  pdf_document:
+    latex_engine: xelatex
+  html_document:
+    df_print: paged
+---
+
+Required packages are "foreign": importing data from STATA; "hdm": LASSO-based IV estimation; "AER": robust standard errors and IV estimation.
+```{r message=FALSE}
+library(foreign)
+library(hdm)
+library(AER)
+```
+
+We apply LASSO-based methods to the data from Angrist and Krueger (1991, Quarterly Journal of Economics) "Does Compulsory School Attendance Affect Schooling and Earnings?". The main equation of interest is given by 
+$$\log(\text{Wage}_i)=\alpha\cdot (\text{Education}_i)+X_i'\beta+U_i,$$
+where $X_i$ are controls.Angrist and Krueger (1991) propose to use IV estimation with the quarter of birth dummies used as the IVs for education.
+
+## Import the data
+
+The data from Angrist and Krueger (1991) is available on the author's website  http://economics.mit.edu/faculty/angrist/data1/data/angkru1991. We import the STATA version of the data set:
+```{r}
+Angrist<-read.dta("NEW7080.dta")
+```
+
+We need to change the names of the variables. The list of the names corresponding to the `v` variables can be found at http://economics.mit.edu/files/5354
+
+```{r}
+colnames(Angrist) <-
+   c(
+  "AGE",
+  "AGEQ", 
+  "v3",
+  "EDUC", #education
+  "ENOCENT", #region dummy
+  "ESOCENT", #region dummy
+  "v7",
+  "v8",
+  "LWKLYWGE", # Log weekly wage
+  "MARRIED", #1 if married
+  "MIDATL", #region dummy
+  "MT", #region dummy
+  "NEWENG", #region dummy
+  "v14","v15",
+  "CENSUS", #70 or #80
+  "v17",
+  "QOB", #quarter of birth
+  "RACE", #1 if black, 0 otherwise
+  "SMSA", #region dummy
+  "SOATL", #region dummy
+  "v22","v23",
+  "WNOCENT", #region dummy
+  "WSOCENT", #region dummy
+  "v26",
+  "YOB" #year of birth
+  )
+
+Angrist$AGESQ=Angrist$AGEQ^2 #squared age
+```
+
+Following the paper, we focus on middle-aged men in the 1980 census. The number of observations in the selected sample is 486926.
+```{r}
+Angrist804049<-subset(Angrist, CENSUS==80 & YOB>=40 & YOB<=49)
+nrow(Angrist804049)
+```
+
+## OLS and IV estimation:
+
+We first produce OLS estimates. To compute heteroskedasticity robust standard errors, we use the `coeftest()` function from the package "AER".
+```{r}
+OLS=lm(LWKLYWGE~EDUC+RACE+MARRIED+SMSA+NEWENG+MIDATL+ENOCENT+WNOCENT+SOATL
+       +ESOCENT+WSOCENT+MT+as.factor(YOB)+AGE+AGESQ, data=Angrist804049)
+coeftest(OLS,vcov=vcovHC(OLS, type = "HC0"))
+```
+
+Next, we compute the IV estimator using the `ivreg()` command from the package "AER". We use the quarter of birth dummies as the IVs for education. We generate more IVs by taking interactions between the quarter of birth dummies and the controls.
+```{r}
+TSLS=ivreg(LWKLYWGE~EDUC+RACE+MARRIED+SMSA+NEWENG+MIDATL+ENOCENT+WNOCENT
+           +SOATL+ESOCENT+WSOCENT+MT+as.factor(YOB)+AGE+AGESQ 
+           | as.factor(QOB)+RACE+MARRIED+SMSA+NEWENG+MIDATL+ENOCENT+WNOCENT
+           +SOATL+ESOCENT+WSOCENT+MT+as.factor(YOB)+AGE+AGESQ
+          +as.factor(QOB)*(RACE+MARRIED+SMSA+NEWENG+MIDATL+ENOCENT+WNOCENT+SOATL
+                              +ESOCENT+WSOCENT+MT+as.factor(YOB)+AGE+AGESQ)
+,data=Angrist804049)
+coeftest(TSLS,vcov=vcovHC(TSLS, type = "HC0"))
+```
+
+
+We can also investigate the first-stage equation. There is a large number of parameters with none of the quarter of birth variables or their interactions significant. This may be due to the fact that there are a large number of regressors.
+```{r}
+FirstStage=lm(
+  EDUC~as.factor(QOB)
+  +RACE+MARRIED+SMSA+NEWENG+MIDATL+ENOCENT+WNOCENT+SOATL
+  +ESOCENT+WSOCENT+MT+as.factor(YOB)+AGE+AGESQ
+  + as.factor(QOB)*(RACE+MARRIED+SMSA+NEWENG+MIDATL+ENOCENT
+                    +WNOCENT+SOATL+ESOCENT+WSOCENT+MT+as.factor(YOB)+AGE+AGESQ), 
+  data = Angrist804049)
+coeftest(FirstStage,vcov=vcovHC(FirstStage, type = "HC0"))
+```
+
+
+## LASSO-based estimation
+
+We use LASSO to select the relevant controls and IVs, and then post-LASSO to partial out the effect of controls. We use the `rlassoIV()` command from the package "hdm". The command performs LASSO selection, post-LASSO partialling out, and post-LASSO IV estimation. We use the options `select.X=TRUE` for performing selection over controls and `select.Z=TRUE` for performing selection over IVs.
+```{r}
+PLIV=rlassoIV(LWKLYWGE~EDUC+RACE+MARRIED+SMSA+NEWENG+MIDATL+ENOCENT+WNOCENT
+              +SOATL+ESOCENT+WSOCENT+MT+as.factor(YOB)+AGE+AGESQ 
+           | as.factor(QOB)+RACE+MARRIED+SMSA+NEWENG+MIDATL+ENOCENT+WNOCENT
+           +SOATL+ESOCENT+WSOCENT+MT+as.factor(YOB)+AGE+AGESQ
+            + as.factor(QOB)*(RACE+MARRIED+SMSA+NEWENG+MIDATL+ENOCENT+WNOCENT
+                            +SOATL+ESOCENT+WSOCENT+MT+as.factor(YOB)+AGE+AGESQ)
+           ,data=Angrist804049,
+           select.X=TRUE,select.Z=TRUE)
+```
+
+The post-LASSO IV estimates are:
+```{r}
+summary(PLIV)
+```
+
+The corresponding 95% confidence interval is:
+```{r}
+PLIVCI=confint(PLIV)
+```
+
+In the first stage, LASSO selected only some of the interaction terms for IVs. The following commands find the identities of the LASSO-selected IVs.
+```{r}
+First=rlasso(EDUC~as.factor(QOB)+RACE+MARRIED+SMSA+NEWENG+MIDATL+ENOCENT+WNOCENT
+             +SOATL+ESOCENT+WSOCENT+MT+as.factor(YOB)+AGE+AGESQ
+          + as.factor(QOB)*(RACE+MARRIED+SMSA+NEWENG+MIDATL+ENOCENT+WNOCENT
+        +SOATL+ESOCENT+WSOCENT+MT+as.factor(YOB)+AGE+AGESQ),data=Angrist804049)
+which(First$index==TRUE)
+```
