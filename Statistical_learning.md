@@ -34,10 +34,13 @@ title: Statistical Learning
 * [ISL 2nd edition data sets](Homeworks/Statistical_learning/ALL+CSV+FILES+-+2nd+Edition+-+corrected.zip)
 * [Homework 1](Homeworks/Statistical_learning/HW1.pdf), due: October 14, before class.
 * [Homework 1 answer](Homeworks/Statistical_learning/HW1_conceptual_answer.pdf), conceptual part
+* [Homework 1 applied part](Homeworks/Statistical_learning/HW1.Rmd)
 * [Homework 2](Homeworks/Statistical_learning/HW2.pdf), due: October 28, before class.
 * [Homework 2 answer](Homeworks/Statistical_learning/HW2_answer.pdf), conceptual part
+* [Homework 2 applied part](Homeworks/Statistical_learning/HW2.zip)
 * [Homework 3](Homeworks/Statistical_learning/HW3.pdf), due: November 11, before class.
 * [Homework 3 answer](Homeworks/Statistical_learning/HW3_answer.pdf), conceptual part
+* [Homework 3 applied part](Homeworks/Statistical_learning/HW3.Rmd)
 * [Homework 4](Homeworks/Statistical_learning/HW4.pdf), due: December 2, before class.
 * [Homework 4 answer](Homeworks/Statistical_learning/HW4_answer.pdf), conceptual part
 
