@@ -26,7 +26,7 @@ title: Statistical Learning
 12. [LT10 adaptive LASSO](Lecture_Notes/Statistical_learning/LT10_LASSO.pdf)
 13. [LT11 hd LASSO](Lecture_Notes/Statistical_learning/LT11_hd_LASSO.pdf)
 14. [LT12 double LASSO](Lecture_Notes/Statistical_learning/LT12_double_LASSO_dec8.pdf), updated: Dec 8
-15. [LT13 IV LASSO](Lecture_Notes/Statistical_learning/LT13_LASSO_IV.pdf), incomplete
+15. [LT13 IV LASSO](Lecture_Notes/Statistical_learning/LT13_LASSO_IV.pdf), updated: Dec 16
 
 ### 3.Homeworks
 * [Markdown tutorial](https://www.markdowntutorial.com/zh-cn/)
@@ -52,6 +52,7 @@ title: Statistical Learning
 * [Lab8 adaptive LASSO.Rmd](Lecture_Notes/Statistical_learning/lab8_adaptive_LASSO.Rmd) [.pdf](Lecture_Notes/Statistical_learning/lab8_adaptive_LASSO.pdf)
 * [Lab9 naive post-LASSO.Rmd](Lecture_Notes/Statistical_learning/lab9_Post_LASSO.Rmd) [.pdf](Lecture_Notes/Statistical_learning/lab9_Post_LASSO.pdf)
 * [lab10 double LASSO.Rmd](Lecture_Notes/Statistical_learning/lab10_double_LASSO.Rmd) [.pdf](Lecture_Notes/Statistical_learning/lab10_double_LASSO.pdf)
+* [lab11 IV.Rmd](Lecture_Notes/Statistical_learning/lab11_IV.Rmd) [.pdf](Lecture_Notes/Statistical_learning/lab11_IV.pdf); Data: http://economics.mit.edu/files/2854
 
 ### 5. Reference
 * Adaptive LASSO: [Zou 2006](References/Statistical_learning/Zou-The Adaptive Lasso and Its Oracle Properties-2012-Journal of the American Statistical Association.pdf)
