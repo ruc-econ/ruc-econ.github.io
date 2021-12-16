@@ -52,7 +52,7 @@ title: Statistical Learning
 * [Lab8 adaptive LASSO.Rmd](Lecture_Notes/Statistical_learning/lab8_adaptive_LASSO.Rmd) [.pdf](Lecture_Notes/Statistical_learning/lab8_adaptive_LASSO.pdf)
 * [Lab9 naive post-LASSO.Rmd](Lecture_Notes/Statistical_learning/lab9_Post_LASSO.Rmd) [.pdf](Lecture_Notes/Statistical_learning/lab9_Post_LASSO.pdf)
 * [lab10 double LASSO.Rmd](Lecture_Notes/Statistical_learning/lab10_double_LASSO.Rmd) [.pdf](Lecture_Notes/Statistical_learning/lab10_double_LASSO.pdf)
-* [lab11 IV.Rmd](Lecture_Notes/Statistical_learning/lab11_IV.Rmd) [.pdf](Lecture_Notes/Statistical_learning/lab11_IV.pdf); Data: http://economics.mit.edu/files/2854
+* [lab11 IV.Rmd](Lecture_Notes/Statistical_learning/lab11_IV.Rmd) [.pdf](Lecture_Notes/Statistical_learning/lab11_IV.pdf); [download data](http://economics.mit.edu/files/2854)
 
 ### 5. Reference
 * Adaptive LASSO: [Zou 2006](References/Statistical_learning/Zou-The Adaptive Lasso and Its Oracle Properties-2012-Journal of the American Statistical Association.pdf)
