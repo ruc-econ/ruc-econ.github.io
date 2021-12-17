@@ -41,7 +41,8 @@ title: Undergraduate Econometrics
 25. [LT24 multinomial](Lecture_Notes/UG_econometrics/LT24_multinomial.pdf); STATA: [conditional logit](References/UG_econometrics/rasclogit.pdf), [ordered logit](References/UG_econometrics/rologit.pdf), [multinomial logit](References/UG_econometrics/rmlogit.pdf)
 26. [LT25 censor](Lecture_Notes/UG_econometrics/LT25_lim.pdf); STATA: [tobit](Lecture_Notes/UG_econometrics/rtobit.pdf), [Heckman](Lecture_Notes/UG_econometrics/rheckman.pdf)
 27. [STATA tutorial](Lecture_Notes/UG_econometrics/Stata Tutorial.pdf), [data](Lecture_Notes/UG_econometrics/data.zip)
-28. [LT26 treatment](Lecture_Notes/UG_econometrics/LT26_treatment.pdf), incomplete
+28. [LT26 treatment](Lecture_Notes/UG_econometrics/LT26_treatment.pdf), updated, Dec 17
+29. [LT27 resampling](Lecture_Notes/UG_econometrics/LT27_resampling.pdf)
 
 
 ### 3. Homeworks
