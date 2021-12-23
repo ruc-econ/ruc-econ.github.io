@@ -27,6 +27,7 @@ title: Statistical Learning
 13. [LT11 hd LASSO](Lecture_Notes/Statistical_learning/LT11_hd_LASSO.pdf)
 14. [LT12 double LASSO](Lecture_Notes/Statistical_learning/LT12_double_LASSO_dec8.pdf), updated: Dec 8
 15. [LT13 IV LASSO](Lecture_Notes/Statistical_learning/LT13_LASSO_IV.pdf), updated: Dec 16
+16. [LT14 causal forests](Lecture_Notes/Statistical_learning/LT14_causal_forests.pdf)
 
 ### 3.Homeworks
 * [Markdown tutorial](https://www.markdowntutorial.com/zh-cn/)
