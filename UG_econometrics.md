@@ -43,6 +43,7 @@ title: Undergraduate Econometrics
 27. [STATA tutorial](Lecture_Notes/UG_econometrics/Stata Tutorial.pdf), [data](Lecture_Notes/UG_econometrics/data.zip)
 28. [LT26 treatment](Lecture_Notes/UG_econometrics/LT26_treatment.pdf), updated, Dec 17
 29. [LT27 resampling](Lecture_Notes/UG_econometrics/LT27_resampling.pdf)
+30. [LT28 pooling](Lecture_Notes/UG_econometrics/LT28_pooling.pdf)
 
 
 ### 3. Homeworks
