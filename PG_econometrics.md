@@ -47,4 +47,4 @@ title: Postgraduate Econometrics
 9. [Homework 4 answer](Homeworks/PG_econometrics/HW4_answer.pdf)
 10. [Homework 5](Homeworks/PG_econometrics/HW5.pdf), Due: December 20, before class
 11. [Homework 5 answer](Homeworks/PG_econometrics/HW5_answer.pdf)
-12. [Homework 6](Homeworks/PG_econometrics/HW6.pdf)
+12. [Homework 6](Homeworks/PG_econometrics/HW6.pdf), no due date
