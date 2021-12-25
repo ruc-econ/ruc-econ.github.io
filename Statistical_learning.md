@@ -10,7 +10,7 @@ title: Statistical Learning
 * Time: Thursday 18:00-20:25
 * Classroom: 教二2215
 * **期末考试时间：12月26日7点；地点：明法0202**
-
+* Library Genesis: https://libgen.unblockit.tv/
 
 ### 2.Lecture Slides
 1. [syllabus](https://ruc-econ.github.io/Lecture_Notes/Statistical_learning/syllabus_ML.pdf)
