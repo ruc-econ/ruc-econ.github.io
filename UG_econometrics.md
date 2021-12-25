@@ -42,7 +42,7 @@ title: Undergraduate Econometrics
 26. [LT25 censor](Lecture_Notes/UG_econometrics/LT25_lim.pdf); STATA: [tobit](Lecture_Notes/UG_econometrics/rtobit.pdf), [Heckman](Lecture_Notes/UG_econometrics/rheckman.pdf)
 27. [STATA tutorial](Lecture_Notes/UG_econometrics/Stata Tutorial.pdf), [data](Lecture_Notes/UG_econometrics/data.zip)
 28. [LT26 treatment](Lecture_Notes/UG_econometrics/LT26_treatment.pdf), updated, Dec 17
-29. [LT27 resampling](Lecture_Notes/UG_econometrics/LT27_resampling.pdf)
+29. [LT27 resampling](Lecture_Notes/UG_econometrics/LT27_resampling_dec25.pdf), updated, Dec 25
 30. [LT28 pooling](Lecture_Notes/UG_econometrics/LT28_pooling.pdf)
 
 
