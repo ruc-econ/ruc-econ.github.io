@@ -25,6 +25,8 @@ title: Postgraduate Econometrics
 9. [LT8 LS asymptotics](Lecture_Notes/PG_econometrics/LT8_Asymptotic_LS_nov29.pdf), updated: Nov 29
 10. [LT9 IV](Lecture_Notes/PG_econometrics/LT9_IV_dec13.pdf), updated: Dec 13
 11. [LT10 GMM](Lecture_Notes/PG_econometrics/LT10_GMM.pdf)
+12. [LT11 bootstrap](Lecture_Notes/PG_econometrics/LT11_bootstrap.pdf)
+13. [LT12 pooling](Lecture_Notes/PG_econometrics/LT12_pooling.pdf)
 
 ### 3. Handouts
 1. [LS regression](Lecture_Notes/PG_econometrics/regression model.pdf)
@@ -34,6 +36,7 @@ title: Postgraduate Econometrics
 5. [hypothesis testing](Lecture_Notes/PG_econometrics/Hypothesis_Testing.pdf)
 6. [IV](Lecture_Notes/PG_econometrics/IV.pdf)
 7. [GMM](Lecture_Notes/PG_econometrics/GMM.pdf)
+8. [bootstrap](Lecture_Notes/PG_econometrics/bootstrap.pdf)
 
 ### 3. Homeworks
 1. [Homework 1](Homeworks/PG_econometrics/HW1.pdf), Due: October 11, before class
