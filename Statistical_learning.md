@@ -23,7 +23,7 @@ title: Statistical Learning
 8. [LT7 nonlinear model](Lecture_Notes/Statistical_learning/LT7_nonlinear model.pdf)
 9. [LT8 tree](Lecture_Notes/Statistical_learning/LT8_tree_dec25.pdf), updated: Dec 25
 10. [LT9 recap](Lecture_Notes/Statistical_learning/LT9_recap.pdf)
-11. [final project](Lecture_Notes/Statistical_learning/final project.pdf)
+11. [final project](Lecture_Notes/Statistical_learning/final project updated.pdf), updated: Dec 26
 12. [LT10 adaptive LASSO](Lecture_Notes/Statistical_learning/LT10_LASSO.pdf)
 13. [LT11 hd LASSO](Lecture_Notes/Statistical_learning/LT11_hd_LASSO.pdf)
 14. [LT12 double LASSO](Lecture_Notes/Statistical_learning/LT12_double_LASSO_dec8.pdf), updated: Dec 8
@@ -68,3 +68,4 @@ title: Statistical Learning
 * LASSO for IV: [Belloni, Chen, Chernozhukov and Hansen, 2012](References/Statistical_learning/Belloni-Sparse Models and Methods for Optimal Instruments With an Application to Eminent Domain-2012-Econometrica.pdf); [Chernozhukov, Hansen and Spindler, 2015](References/Statistical_learning/Chernozhukov-Post-Selection and Post-Regularization Inference in Linear Models with Many Controls and Instruments-2015-American Economic Review.pdf)
 * Causal trees and forests: [Athey and Imbens, 2016](References/Statistical_learning/Athey-Recursive partitioning for heterogeneous causal effects-2016-Proceedings of the National Academy of Sciences.pdf); [Wager and Athey, 2018](References/Statistical_learning/Wager-Estimation and Inference of Heterogeneous Treatment Effects using Random Forests-2018-Journal of the American Statistical Association.pdf)
 * Causal forest application: [Athey and Wager, 2019](References/Statistical_learning/Athey-Estimating Treatment Effects with Causal Forests- An Application-2019-Observational Studies.pdf)
+* Inverse probability weighting estimation: [Hirano, Imbens and Ridder, 2003](References/Statistical_learning/Hirano-Efficient Estimation of Average Treatment Effects Using the Estimated Propensity Score-2003-Econometrica.pdf)
