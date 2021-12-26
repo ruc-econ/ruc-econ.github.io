@@ -44,6 +44,8 @@ title: Undergraduate Econometrics
 28. [LT26 treatment](Lecture_Notes/UG_econometrics/LT26_treatment.pdf), updated, Dec 17
 29. [LT27 resampling](Lecture_Notes/UG_econometrics/LT27_resampling_dec25.pdf), updated, Dec 25
 30. [LT28 pooling](Lecture_Notes/UG_econometrics/LT28_pooling.pdf)
+31. [LT29 panel](Lecture_Notes/UG_econometrics/LT29_panel.pdf)
+32. [LT30 scm](Lecture_Notes/UG_econometrics/LT30_SC.pdf)
 
 
 ### 3. Homeworks
