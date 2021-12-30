@@ -63,7 +63,8 @@ title: Undergraduate Econometrics
 12. [Homework 6](Homeworks/UG_econometrics/HW6.pdf): due Dec 22, before class
 13. [Homework 6 answer](Homeworks/UG_econometrics/HW6_answer.pdf)
 14. [Homework 7](Homeworks/UG_econometrics/HW7.pdf): no due date
-15. [Final exam 2020](Homeworks/UG_econometrics/Final_2020.pdf)
+15. [Homework 7 answer](Homeworks/UG_econometrics/HW7_answer.pdf)
+16. [Final exam 2020](Homeworks/UG_econometrics/Final_2020.pdf)
 
 ### 4. References
 * standard error for linear regression with many regressors: [Cattaneo, Jansson, and Newey](References/UG_econometrics/Cattaneo-Inference in Linear Regression Models with Many Covariates and Heteroscedasticity-2018-Journal of the American Statistical Association.pdf)
