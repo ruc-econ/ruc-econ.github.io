@@ -28,7 +28,8 @@ title: Statistical Learning
 13. [LT11 hd LASSO](Lecture_Notes/Statistical_learning/LT11_hd_LASSO.pdf)
 14. [LT12 double LASSO](Lecture_Notes/Statistical_learning/LT12_double_LASSO_dec8.pdf), updated: Dec 8
 15. [LT13 IV LASSO](Lecture_Notes/Statistical_learning/LT13_LASSO_IV.pdf), updated: Dec 16
-16. [LT14 causal forests](Lecture_Notes/Statistical_learning/LT14_causal_forests.pdf)
+16. [LT14 causal forests](Lecture_Notes/Statistical_learning/LT14_causal_forests_dec30.pdf), updated: Dec 30
+17. [LyX模版](Lecture_Notes/Statistical_learning/模版.lyx)，[bib](Lecture_Notes/Statistical_learning/模版.bib)
 
 ### 3.Homeworks
 * [Markdown tutorial](https://www.markdowntutorial.com/zh-cn/)
@@ -58,6 +59,7 @@ title: Statistical Learning
 * [Lab9 naive post-LASSO.Rmd](Lecture_Notes/Statistical_learning/lab9_Post_LASSO.Rmd) [.pdf](Lecture_Notes/Statistical_learning/lab9_Post_LASSO.pdf)
 * [lab10 double LASSO.Rmd](Lecture_Notes/Statistical_learning/lab10_double_LASSO.Rmd) [.pdf](Lecture_Notes/Statistical_learning/lab10_double_LASSO.pdf)
 * [lab11 IV.Rmd](Lecture_Notes/Statistical_learning/lab11_IV.Rmd) [.pdf](Lecture_Notes/Statistical_learning/lab11_IV.pdf); [download data](http://economics.mit.edu/files/2854)
+* [lab12 causal.Rmd](Lecture_Notes/Statistical_learning/lab12_causal.Rmd) [.pdf](Lecture_Notes/Statistical_learning/lab12_causal.pdf)
 
 ### 5. Reference
 * Adaptive LASSO: [Zou 2006](References/Statistical_learning/Zou-The Adaptive Lasso and Its Oracle Properties-2012-Journal of the American Statistical Association.pdf)
