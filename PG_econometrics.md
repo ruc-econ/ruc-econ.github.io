@@ -10,8 +10,7 @@ title: Postgraduate Econometrics
 * Class Time: Monday 18:00-20:25
 * Class Location: 国学馆113
 * 助教: 范智颖 (fzy2020102061@ruc.edu.cn)
-* 期中考试时间：11月8日周一18:00-20:00；地点：国学馆113
-* 期中考试答疑时间：11月6日周六18:00-19:30；地点：教二2104
+* **期末考试答疑时间：12月31日晚8:00-9:30，地点：明主856**
 
 ### 2. Lecture Slides
 1. [syllabus](Lecture_Notes/PG_econometrics/g_syllabus.pdf)
