@@ -37,7 +37,7 @@ title: Postgraduate Econometrics
 7. [GMM](Lecture_Notes/PG_econometrics/GMM.pdf)
 8. [bootstrap](Lecture_Notes/PG_econometrics/bootstrap.pdf)
 
-### 3. Homeworks
+### 4. Homeworks
 1. [Homework 1](Homeworks/PG_econometrics/HW1.pdf), Due: October 11, before class
 2. [Homework 1 answer](Homeworks/PG_econometrics/HW1_answer.pdf)
 3. [Homework 2](Homeworks/PG_econometrics/HW2.pdf), Due: October 25, before class
@@ -51,3 +51,6 @@ title: Postgraduate Econometrics
 11. [Homework 5 answer](Homeworks/PG_econometrics/HW5_answer.pdf)
 12. [Homework 6](Homeworks/PG_econometrics/HW6.pdf), no due date
 13. [Homework 6 answer](Homeworks/PG_econometrics/HW6_answer.pdf)
+
+### 5. Topics
+1. [syllabus](Lecture_Notes/PG_econometrics/syllabus_topics.pdf)
