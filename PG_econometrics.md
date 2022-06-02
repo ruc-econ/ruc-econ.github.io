@@ -56,4 +56,5 @@ title: Postgraduate Econometrics
 1. [syllabus](Lecture_Notes/PG_econometrics/syllabus_topics.pdf)
 2. [GMM](Lecture_Notes/PG_econometrics/GMM_extension.pdf), [references](Lecture_Notes/PG_econometrics/GMM reference.zip)
 3. [causal](Lecture_Notes/PG_econometrics/causal_2.pdf), [references](Lecture_Notes/PG_econometrics/causal references.zip)
-4. [RD](Lecture_Notes/PG_econometrics/RD.pdf)
+4. [RD](Lecture_Notes/PG_econometrics/RD.pdf), [references](Lecture_Notes/PG_econometrics/RD_reference.zip)
+5. [IVQR](Lecture_Notes/PG_econometrics/IVQR.pdf), [reference](Lecture_Notes/PG_econometrics/IVQR_reference.zip)
