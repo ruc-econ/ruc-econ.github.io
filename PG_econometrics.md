@@ -58,3 +58,4 @@ title: Postgraduate Econometrics
 3. [causal](Lecture_Notes/PG_econometrics/causal_2.pdf), [references](Lecture_Notes/PG_econometrics/causal references.zip)
 4. [RD](Lecture_Notes/PG_econometrics/RD.pdf), [references](Lecture_Notes/PG_econometrics/RD_reference.zip)
 5. [IVQR](Lecture_Notes/PG_econometrics/IVQR.pdf), [reference](Lecture_Notes/PG_econometrics/IVQR_reference.zip)
+6. [SC](Lecture_Notes/PG_econometrics/SC.pdf), [reference](Lecture_Notes/PG_econometrics/SC reference.zip)
