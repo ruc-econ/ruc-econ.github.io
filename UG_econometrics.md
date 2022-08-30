@@ -8,9 +8,7 @@ title: Undergraduate Econometrics
 * Email: jun.ma@ruc.edu.cn
 * Office: 北校区一号楼西配楼106
 * Time: Wednesday 19:40-21:10; Friday 10:00-11:30
-* Classroom: 教二2209
-* 助教: 刘博（790898097@qq.com）
-* **期末考试答疑时间：12月31日晚8:00-9:30，地点：明主856**
+* Venue: 教二2209
 
 ### 2. Lecture Slides
 1. [syllabus](https://ruc-econ.github.io/Lecture_Notes/UG_econometrics/ug econometrics syllabus.pdf)
@@ -45,26 +43,3 @@ title: Undergraduate Econometrics
 30. [LT28 pooling](Lecture_Notes/UG_econometrics/LT28_pooling.pdf)
 31. [LT29 panel](Lecture_Notes/UG_econometrics/LT29_panel.pdf)
 32. [LT30 scm](Lecture_Notes/UG_econometrics/LT30_SC.pdf)
-
-
-### 3. Homeworks
-1. [Homework 1](https://ruc-econ.github.io/Homeworks/UG_econometrics/HW1.pdf): due Sep 29, before class 
-2. [Homework 1 answer](Homeworks/UG_econometrics/HW1_with_answer.pdf)
-3. [Homework 2](Homeworks/UG_econometrics/HW2.pdf): due Oct 13, before class
-4. [Homework 2 answer](Homeworks/UG_econometrics/HW2_with_answer.pdf) (updated: Nov 3)
-5. [Homework 3](Homeworks/UG_econometrics/HW3.pdf): due Oct 29, before class
-6. [Homework 3 answer](Homeworks/UG_econometrics/HW3_answer.pdf)
-7. [Mid-term exam 2020](Homeworks/UG_econometrics/Midterm_2020.pdf)
-8. [Homework 4](Homeworks/UG_econometrics/HW4.pdf): due Nov 12, before class
-9. [Homework 4 answer](Homeworks/UG_econometrics/HW4_answer.pdf)
-10. [Homework 5](Homeworks/UG_econometrics/HW5.pdf): due Dec 3, before class
-11. [Homework 5 answer](Homeworks/UG_econometrics/HW5_answer.pdf)
-12. [Homework 6](Homeworks/UG_econometrics/HW6.pdf): due Dec 22, before class
-13. [Homework 6 answer](Homeworks/UG_econometrics/HW6_answer.pdf)
-14. [Homework 7](Homeworks/UG_econometrics/HW7.pdf): no due date
-15. [Homework 7 answer](Homeworks/UG_econometrics/HW7_answer.pdf)
-16. [Final exam 2020](Homeworks/UG_econometrics/Final_2020.pdf)
-
-### 4. References
-* standard error for linear regression with many regressors: [Cattaneo, Jansson, and Newey](References/UG_econometrics/Cattaneo-Inference in Linear Regression Models with Many Covariates and Heteroscedasticity-2018-Journal of the American Statistical Association.pdf)
-* problem with weak instrument: [Bound, Jaeger, and Baker](References/UG_econometrics/Bound-Problems with instrumental variables estimation when the correlation between the instruments and the endogenous explanatory variable is weak-1995-Journal of the American Statistical Association.pdf)
