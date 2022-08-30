@@ -7,6 +7,8 @@ title: Postgraduate Econometrics
 * Instructor: ⻢骏
 * Email: jun.ma@ruc.edu.cn
 * Office: 北校区1号楼⻄配楼106
+* Venue: 国学226
+* Time：周三18:00-20:25
 
 ### 2. Lecture Slides
 1. [syllabus](Lecture_Notes/PG_econometrics/g_syllabus.pdf)
