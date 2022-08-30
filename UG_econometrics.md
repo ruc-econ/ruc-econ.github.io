@@ -7,8 +7,8 @@ title: Undergraduate Econometrics
 * Instructor: 马骏
 * Email: jun.ma@ruc.edu.cn
 * Office: 北校区一号楼西配楼106
-* Time: Wednesday 19:40-21:10; Friday 10:00-11:30
-* Venue: 教二2209
+* Time: 周二 14:00-15:30，周三8:00-9:30
+* Venue: 立德407，明商0208
 
 ### 2. Lecture Slides
 1. [syllabus](https://ruc-econ.github.io/Lecture_Notes/UG_econometrics/ug econometrics syllabus.pdf)
