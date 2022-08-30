@@ -7,10 +7,6 @@ title: Statistical Learning
 * Instructor: 马骏
 * Email: jun.ma@ruc.edu.cn
 * Office: 北校区一号楼西配楼106
-* Time: Thursday 18:00-20:25
-* Classroom: 教二2215
-* **期末考试时间：12月26日7点；地点：明法0202**
-* Library Genesis: https://libgen.unblockit.tv/
 
 ### 2.Lecture Slides
 1. [syllabus](https://ruc-econ.github.io/Lecture_Notes/Statistical_learning/syllabus_ML.pdf)
@@ -31,38 +27,7 @@ title: Statistical Learning
 16. [LT14 causal forests](Lecture_Notes/Statistical_learning/LT14_causal_forests_dec30.pdf), updated: Dec 30
 17. [LyX模版](Lecture_Notes/Statistical_learning/模版.lyx)，[bib](Lecture_Notes/Statistical_learning/模版.bib)
 
-### 3.Homeworks
-* [Markdown tutorial](https://www.markdowntutorial.com/zh-cn/)
-* [R Markdown cheat sheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf)
-* [ISL 2nd edition data sets](Homeworks/Statistical_learning/ALL+CSV+FILES+-+2nd+Edition+-+corrected.zip)
-* [Homework 1](Homeworks/Statistical_learning/HW1.pdf), due: October 14, before class.
-* [Homework 1 answer](Homeworks/Statistical_learning/HW1_conceptual_answer.pdf), conceptual part
-* [Homework 1 applied part](Homeworks/Statistical_learning/HW1.Rmd)
-* [Homework 2](Homeworks/Statistical_learning/HW2.pdf), due: October 28, before class.
-* [Homework 2 answer](Homeworks/Statistical_learning/HW2_answer.pdf), conceptual part
-* [Homework 2 applied part](Homeworks/Statistical_learning/HW2.zip)
-* [Homework 3](Homeworks/Statistical_learning/HW3.pdf), due: November 11, before class.
-* [Homework 3 answer](Homeworks/Statistical_learning/HW3_answer.pdf), conceptual part
-* [Homework 3 applied part](Homeworks/Statistical_learning/HW3.Rmd)
-* [Homework 4](Homeworks/Statistical_learning/HW4.pdf), due: December 2, before class.
-* [Homework 4 answer](Homeworks/Statistical_learning/HW4_answer.pdf), conceptual part
-
-### 4. Labs
-* [Lab1 introduction.Rmd](Homeworks/Statistical_learning/Lab_1_intro.Rmd) [.pdf](Homeworks/Statistical_learning/Lab_1_intro.pdf)
-* [Lab2 regression.Rmd](Homeworks/Statistical_learning/lab2 regression.Rmd) [.pdf](Homeworks/Statistical_learning/lab2 regression.pdf)
-* [Lab3 classification.Rmd](Homeworks/Statistical_learning/lab3 classification.Rmd) [.pdf](Homeworks/Statistical_learning/lab3 classification.pdf)
-* [Lab4 cv.Rmd](Homeworks/Statistical_learning/lab4 cv.Rmd) [.pdf](Homeworks/Statistical_learning/lab4-cv.pdf)
-* [Lab5 model.Rmd](Lecture_Notes/Statistical_learning/lab5 model selection.Rmd) [.pdf](Lecture_Notes/Statistical_learning/lab5-model-selection.pdf)
-* [Lab6 nonlinear.Rmd](Lecture_Notes/Statistical_learning/lab6 nonlinear.Rmd) [.pdf](Lecture_Notes/Statistical_learning/lab6-nonlinear.pdf)
-* [Lab7 tree.Rmd](Lecture_Notes/Statistical_learning/lab7 trees.Rmd) [.pdf](Lecture_Notes/Statistical_learning/lab7-trees.pdf)
-* [Lab8 adaptive LASSO.Rmd](Lecture_Notes/Statistical_learning/lab8_adaptive_LASSO.Rmd) [.pdf](Lecture_Notes/Statistical_learning/lab8_adaptive_LASSO.pdf)
-* [Lab9 naive post-LASSO.Rmd](Lecture_Notes/Statistical_learning/lab9_Post_LASSO.Rmd) [.pdf](Lecture_Notes/Statistical_learning/lab9_Post_LASSO.pdf)
-* [lab10 double LASSO.Rmd](Lecture_Notes/Statistical_learning/lab10_double_LASSO.Rmd) [.pdf](Lecture_Notes/Statistical_learning/lab10_double_LASSO.pdf)
-* [lab11 IV.Rmd](Lecture_Notes/Statistical_learning/lab11_IV.Rmd) [.pdf](Lecture_Notes/Statistical_learning/lab11_IV.pdf); [download data](http://economics.mit.edu/files/2854)
-* [lab12 causal.Rmd](Lecture_Notes/Statistical_learning/lab12_causal.Rmd) [.pdf](Lecture_Notes/Statistical_learning/lab12_causal.pdf)
-* [All Rmd](Lecture_Notes/Statistical_learning/ALL.zip)
-
-### 5. Reference
+### 3. Reference
 * Adaptive LASSO: [Zou 2006](References/Statistical_learning/Zou-The Adaptive Lasso and Its Oracle Properties-2012-Journal of the American Statistical Association.pdf)
 * Review papers: [Belloni and Chernozhukov](References/Statistical_learning/LASSO_LectureNotes_AfterFinal_ArXiV.pdf), [Chernozhukov, Hansen and Spindler](References/Statistical_learning/Chernozhukov-Valid Post-Selection and Post-Regularization Inference- An Elementary, General Approach-2015-Annual Review of Economics.pdf), [Athey and Imbens](References/Statistical_learning/Athey-Machine Learning Methods That Economists Should Know About-2019-Annual Review of Economics.pdf)
 * [High-dimensional econometrics in R](References/Statistical_learning/high dimensional metrics in R.pdf)
