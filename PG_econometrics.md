@@ -7,10 +7,6 @@ title: Postgraduate Econometrics
 * Instructor: ⻢骏
 * Email: jun.ma@ruc.edu.cn
 * Office: 北校区1号楼⻄配楼106
-* Class Time: Monday 18:00-20:25
-* Class Location: 国学馆113
-* 助教: 范智颖 (fzy2020102061@ruc.edu.cn)
-* **期末考试答疑时间：12月31日晚8:00-9:30，地点：明主856**
 
 ### 2. Lecture Slides
 1. [syllabus](Lecture_Notes/PG_econometrics/g_syllabus.pdf)
@@ -36,26 +32,3 @@ title: Postgraduate Econometrics
 6. [IV](Lecture_Notes/PG_econometrics/IV.pdf)
 7. [GMM](Lecture_Notes/PG_econometrics/GMM.pdf)
 8. [bootstrap](Lecture_Notes/PG_econometrics/bootstrap.pdf)
-
-### 4. Homeworks
-1. [Homework 1](Homeworks/PG_econometrics/HW1.pdf), Due: October 11, before class
-2. [Homework 1 answer](Homeworks/PG_econometrics/HW1_answer.pdf)
-3. [Homework 2](Homeworks/PG_econometrics/HW2.pdf), Due: October 25, before class
-4. [Homework 2 answer](Homeworks/PG_econometrics/HW2_answer.pdf)
-5. [Homework 3](Homeworks/PG_econometrics/HW3.pdf), Due: November 8, before class
-6. [Homework 3 answer](Homeworks/PG_econometrics/HW3_answer.pdf)
-7. [Mid-term exam 2020](Homeworks/PG_econometrics/Midterm_adv_2020.pdf)
-8. [Homework 4](Homeworks/PG_econometrics/HW4.pdf), Due: December 6, before class
-9. [Homework 4 answer](Homeworks/PG_econometrics/HW4_answer.pdf)
-10. [Homework 5](Homeworks/PG_econometrics/HW5.pdf), Due: December 20, before class
-11. [Homework 5 answer](Homeworks/PG_econometrics/HW5_answer.pdf)
-12. [Homework 6](Homeworks/PG_econometrics/HW6.pdf), no due date
-13. [Homework 6 answer](Homeworks/PG_econometrics/HW6_answer.pdf)
-
-### 5. Topics
-1. [syllabus](Lecture_Notes/PG_econometrics/syllabus_topics.pdf)
-2. [GMM](Lecture_Notes/PG_econometrics/GMM_extension.pdf), [references](Lecture_Notes/PG_econometrics/GMM reference.zip)
-3. [causal](Lecture_Notes/PG_econometrics/causal_2.pdf), [references](Lecture_Notes/PG_econometrics/causal references.zip)
-4. [RD](Lecture_Notes/PG_econometrics/RD.pdf), [references](Lecture_Notes/PG_econometrics/RD_reference.zip)
-5. [IVQR](Lecture_Notes/PG_econometrics/IVQR.pdf), [reference](Lecture_Notes/PG_econometrics/IVQR_reference.zip)
-6. [SC](Lecture_Notes/PG_econometrics/SC.pdf), [reference](Lecture_Notes/PG_econometrics/SC reference.zip)
