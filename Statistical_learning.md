@@ -11,7 +11,7 @@ title: Statistical Learning
 * Venue: 明商0208
 
 ### 2.Lecture Slides
-1. [syllabus](https://ruc-econ.github.io/Lecture_Notes/Statistical_learning/syllabus_ML.pdf)
+1. [syllabus](Lecture_Notes/Statistical_learning/syl_ML.pdf)
 2. [LT1 introduction](https://ruc-econ.github.io/Lecture_Notes/Statistical_learning/LT_1_intro(1).pdf)
 3. [LT2 statistical learning](https://ruc-econ.github.io/Lecture_Notes/Statistical_learning/LT2_stat_learning.pdf)
 4. [LT3 linear regression](Lecture_Notes/Statistical_learning/LT3_regression_oct14.pdf), updated: Oct 14
