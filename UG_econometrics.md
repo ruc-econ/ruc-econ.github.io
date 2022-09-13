@@ -7,6 +7,8 @@ title: Undergraduate Econometrics
 * Instructor: 马骏
 * Email: jun.ma@ruc.edu.cn
 * Office: 北校区一号楼西配楼106
+* TA: 杨世祺
+* Email: shiqiyang@ruc.edu.cn
 * Time: 周二 14:00-15:30，周三8:00-9:30
 * Venue: 立德407，明商0208
 
