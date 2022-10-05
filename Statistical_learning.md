@@ -29,7 +29,10 @@ title: Statistical Learning
 16. [LT14 causal forests](Lecture_Notes/Statistical_learning/LT14_causal_forests_dec30.pdf), updated: Dec 30
 17. [LyX模版](Lecture_Notes/Statistical_learning/模版.lyx)，[bib](Lecture_Notes/Statistical_learning/模版.bib)
 
-### 3. Reference
+### 3.Homework
+1. [Homework 1](Homeworks/Statistical_learning/HW1.pdf), due: Oct 19
+
+### 4. Reference
 * Adaptive LASSO: [Zou 2006](References/Statistical_learning/Zou-The Adaptive Lasso and Its Oracle Properties-2012-Journal of the American Statistical Association.pdf)
 * Review papers: [Belloni and Chernozhukov](References/Statistical_learning/LASSO_LectureNotes_AfterFinal_ArXiV.pdf), [Chernozhukov, Hansen and Spindler](References/Statistical_learning/Chernozhukov-Valid Post-Selection and Post-Regularization Inference- An Elementary, General Approach-2015-Annual Review of Economics.pdf), [Athey and Imbens](References/Statistical_learning/Athey-Machine Learning Methods That Economists Should Know About-2019-Annual Review of Economics.pdf)
 * [High-dimensional econometrics in R](References/Statistical_learning/high dimensional metrics in R.pdf)
