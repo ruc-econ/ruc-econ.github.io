@@ -34,3 +34,6 @@ title: Postgraduate Econometrics
 6. [IV](Lecture_Notes/PG_econometrics/IV.pdf)
 7. [GMM](Lecture_Notes/PG_econometrics/GMM.pdf)
 8. [bootstrap](Lecture_Notes/PG_econometrics/bootstrap.pdf)
+
+### 4. Homework
+1. [HW1](Homeworks/PG_econometrics/HW1_2022.pdf), due: Oct 25
