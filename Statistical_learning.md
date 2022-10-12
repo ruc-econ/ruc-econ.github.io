@@ -32,7 +32,12 @@ title: Statistical Learning
 ### 3.Homework
 1. [Homework 1](Homeworks/Statistical_learning/HW1.pdf), due: Oct 19
 
-### 4. Reference
+### 4.Labs
+1. Rmarkdown cheatsheets: [1](Lecture_Notes/Statistical_learning/rmarkdown-cheatsheet.pdf), [2](Lecture_Notes/Statistical_learning/rmarkdown.pdf)
+2. [lab1](Lecture_Notes/Statistical_learning/lab1_intro.Rmd), [.pdf](Lecture_Notes/Statistical_learning/lab1_intro.pdf)
+3. [lab2](Lecture_Notes/Statistical_learning/lab2 regression.Rmd), [.pdf](Lecture_Notes/Statistical_learning/lab2 regression.pdf)
+
+### 5. Reference
 * Adaptive LASSO: [Zou 2006](References/Statistical_learning/Zou-The Adaptive Lasso and Its Oracle Properties-2012-Journal of the American Statistical Association.pdf)
 * Review papers: [Belloni and Chernozhukov](References/Statistical_learning/LASSO_LectureNotes_AfterFinal_ArXiV.pdf), [Chernozhukov, Hansen and Spindler](References/Statistical_learning/Chernozhukov-Valid Post-Selection and Post-Regularization Inference- An Elementary, General Approach-2015-Annual Review of Economics.pdf), [Athey and Imbens](References/Statistical_learning/Athey-Machine Learning Methods That Economists Should Know About-2019-Annual Review of Economics.pdf)
 * [High-dimensional econometrics in R](References/Statistical_learning/high dimensional metrics in R.pdf)
