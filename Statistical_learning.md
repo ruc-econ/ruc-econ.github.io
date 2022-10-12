@@ -36,7 +36,7 @@ title: Statistical Learning
 1. R Markdown cheatsheets: [1](Lecture_Notes/Statistical_learning/rmarkdown-cheatsheet.pdf), [2](Lecture_Notes/Statistical_learning/rmarkdown.pdf)
 2. [R Markdown tutorial](https://rmarkdown.rstudio.com/)
 3. [R tutorial](https://monashdatafluency.github.io/r-intro-2/)
-4. [lab1.rmd](Lecture_Notes/Statistical_learning/lab1_intro.Rmd), [lab1.pdf](Lecture_Notes/Statistical_learning/lab1_intro.pdf)
+4. [lab1.rmd](Lecture_Notes/Statistical_learning/lab1_intro.Rmd), [lab1.pdf](Lecture_Notes/Statistical_learning/lab1_intro.pdf), [Auto.csv](Lecture_Notes/Statistical_learning/Auto.csv), [Auto.data](Lecture_Notes/Statistical_learning/Auto.data)
 5. [lab2.rmd](Lecture_Notes/Statistical_learning/lab2 regression.Rmd), [lab2.pdf](Lecture_Notes/Statistical_learning/lab2 regression.pdf)
 
 ### 5. Reference
