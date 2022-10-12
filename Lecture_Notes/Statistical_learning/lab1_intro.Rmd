@@ -1,0 +1,302 @@
+---
+title: "**`R` basics**"
+output: pdf_document
+---
+
+# Basic commands
+
+## Packages
+
+Packages provide supplement to the Built-in functions of `R`. Check the list of installed packages:
+```{r}
+library()
+```
+
+Let us, for example, install the `AER` (applied econometrics with `R`) package and the `ISLR2` package. The  `ISLR2` package comes with datasets used by the textbook. The `dependencies=NA` option specifies that if the package depends for its operation on other packages, these should be installed as well (if they have not already been installed). Setting `dependencies=TRUE` installs all packages that depend on the  package.
+```{r eval=FALSE, include=FALSE}
+install.packages("AER", dependencies=NA)
+install.packages("ISLR2", dependencies=NA)
+```
+
+To get an overview of an installed package:
+```{r}
+help(package="ISLR2")
+```
+
+## Working directory
+
+Get working directory:
+```{r}
+getwd()
+```
+
+Set working directory:
+```{r}
+?setwd()
+```
+Or in R Studio, use
+
+* Session->Set Working Directory, or
+* Tools->Global Options.
+
+
+## Vectors and matrices
+
+Generate a vector:
+```{r}
+x<-c(1,2,3)
+x
+typeof(x)
+```
+
+Check the length"
+```{r}
+length(x)
+```
+
+```{r}
+x<-c("No","Yes")
+x
+typeof(x)
+```
+
+Generate a matrix:
+```{r}
+X<-matrix(c(1,2,3,4),ncol=2)
+X
+typeof(X)
+```
+Note: `R` fills in a matrix on a column-by-column basis.
+
+Add a vector as another column:
+```{r}
+x=c(5,6)
+Y=cbind(X,x)
+Y
+```
+
+Add a vector as another row:
+```{r}
+y=c(7,8,9)
+rbind(Y,y)
+```
+
+The `ls()` function allows us to look at a list of all of the objects, such as data and functions, that we have saved so far.
+```{r}
+ls()
+```
+
+The `rm()` function can be used to delete any that we don't
+want.
+```{r chunk4}
+ls()
+rm(x)
+ls()
+```
+
+It's also possible to remove all objects at once:
+```{r}
+rm(list = ls())
+```
+
+Random matrix: generate eight independent $N(0,1)$ random variables arranged in 4 columns:
+```{r}
+X=matrix(rnorm(8),ncol=4)
+X
+```
+
+Choose the mean and the standard deviation:
+```{r}
+X=matrix(rnorm(8,mean=1,sd=.1),ncol=2)
+X
+```
+
+
+Picking specific elements:
+```{r}
+X[1,2]
+```
+
+Pick an entire column (first column):
+```{r}
+X[,1]
+```
+
+Pick an entire row:
+```{r}
+X[1,]
+```
+
+Pick rows 3 & 4:
+```{r}
+X[c(3,4),]
+```
+
+
+Sequences:
+```{r}
+?seq
+x=seq(1,10,by=2)
+x
+```
+
+
+Matrix algebra operations:
+```{r}
+X=matrix(seq(-1,-4,by=-1),ncol=2)
+Y=matrix(seq(1,4),ncol=2)
+X
+Y
+```
+
+Matrix addition:
+```{r}
+X+Y
+```
+
+Matrix product:
+```{r}
+X%*%Y
+```
+
+
+
+Transpose:
+```{r}
+t(X)
+```
+
+Element-by-element operations:
+```{r}
+sqrt(Y)
+```
+
+```{r}
+X*Y
+```
+
+
+```{r}
+1/Y
+```
+
+```{r}
+Y^X
+```
+
+
+# Working with data
+
+## Data frames
+
+The basic object that is used by `R` to store data is a data frame: tabular data consisting of rows (observations) and columns (variables).
+
+```{r}
+x=c(1,2,3,4)
+y=c("male","male","female","female")
+X=cbind(x,y)
+```
+
+When combining x and y in a matrix, x is converted into characters:
+```{r}
+X
+typeof(X)
+```
+
+Data frames can have variables (columns) of different types. There are relationships between the columns: each row is an observation.
+```{r}
+Data=data.frame(years=x,gender=as.factor(y))
+typeof(Data)
+Data
+```
+
+Note that gender is now a factor! (Factors are variables that take on limited number of values. They are used to categorize data by levels. Can be integers or characters.)
+```{r}
+class(Data$years)
+class(Data$gender)
+```
+
+
+The `summary()` and `names()` commands on Data:
+```{r}
+names(Data)
+summary(Data)
+```
+
+## Load data
+
+Data can be loaded from external files using:
+
+* `read.table()`
+* `read.csv()`
+* `read.xlsx()`
+
+We load data from a text file, `Auto.data`:
+```{r}
+Auto <- read.table("Auto.data")
+```
+
+Once the data has been loaded, the `View()` function can be used to view it in a spreadsheet-like window. The `head()` function can also be used to view the first few rows of the data.
+```{r}
+View(Auto)
+head(Auto)
+```
+
+Using the option `header = T` (or `header = TRUE`) in the `read.table()` function
+tells `R` that the first line of the file contains the variable names, and using the option `na.strings` tells `R` that any time it sees a particular character or set of characters (such as a question mark), it should
+be treated as a missing element of the data matrix. The `stringsAsFactors = T` argument tells `R` that any variable containing character strings should be interpreted as a qualitative variable, and that each distinct character string represents a distinct level for that qualitative variable.
+
+```{r}
+Auto <- read.table("Auto.data", header = T, na.strings = "?", stringsAsFactors = T)
+View(Auto)
+```
+
+An easy way to load  data from Excel into `R` is to save it as a csv (comma-separated values) file, and then use the `read.csv()` function.
+```{r}
+Auto <- read.csv("Auto.csv", na.strings = "?", stringsAsFactors = T)
+View(Auto)
+dim(Auto)
+```
+
+The `dim()` function tells us that the data has $397$ observations, or rows, and nine variables, or columns: 
+```{r}
+dim(Auto)
+```
+
+There are various ways to deal with the missing data.  In this case,   only five of the rows contain missing observations,
+and  so we choose to use the `na.omit()` function to simply remove these rows.
+```{r}
+Auto <- na.omit(Auto)
+dim(Auto)
+```
+
+Once the data are loaded correctly, we can use `names()` to check the variable names.
+```{r}
+names(Auto)
+```
+
+Many R packages come with imported data sets. Package `ISLR2` contains data `Boston` on housing values in Boston area:
+```{r}
+library(ISLR2)
+?Boston
+```
+
+Quick inspection of the data:
+```{r}
+summary(Boston)
+```
+
+The first 4 observations:
+```{r}
+Boston[1:4,]
+```
+
+Also the first 4 observations:
+```{r}
+head(Boston,4)
+```
+
+The last 4 observations:
+```{r}
+tail(Boston,4)
+```
