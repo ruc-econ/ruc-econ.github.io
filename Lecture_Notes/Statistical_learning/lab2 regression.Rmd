@@ -8,7 +8,6 @@ output:
 ---
 
 The `library()` function is used to load libraries (functions and data sets that are not included in the base `R`). Load the `MASS` and `ISLR2` packages.
-
 ```{r}
 library(MASS)
 library(ISLR2)

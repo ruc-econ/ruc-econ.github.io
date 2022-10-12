@@ -237,7 +237,7 @@ Auto <- read.table("Auto.data")
 ```
 
 Once the data has been loaded, the `View()` function can be used to view it in a spreadsheet-like window. The `head()` function can also be used to view the first few rows of the data.
-```{r}
+```{r eval=FALSE, include=FALSE}
 View(Auto)
 head(Auto)
 ```
@@ -248,13 +248,13 @@ be treated as a missing element of the data matrix. The `stringsAsFactors = T` a
 
 ```{r}
 Auto <- read.table("Auto.data", header = T, na.strings = "?", stringsAsFactors = T)
-View(Auto)
+# View(Auto)
 ```
 
 An easy way to load  data from Excel into `R` is to save it as a csv (comma-separated values) file, and then use the `read.csv()` function.
 ```{r}
 Auto <- read.csv("Auto.csv", na.strings = "?", stringsAsFactors = T)
-View(Auto)
+# View(Auto)
 dim(Auto)
 ```
 
