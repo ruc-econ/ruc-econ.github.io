@@ -22,7 +22,7 @@ title: Undergraduate Econometrics
 7. [LT6 Gauss Markov](Lecture_Notes/UG_econometrics/LT_06_gauss_markov_Oct05.pdf)
 8. [LT7 standard errors](Lecture_Notes/UG_econometrics/LT_07_errors_variance.pdf)
 9. [LT8 confidence interval](Lecture_Notes/UG_econometrics/LT_08_cis_oct8.pdf) (updated: Oct 8)
-10. [LT9 hypothesis testing](Lecture_Notes/UG_econometrics/LT9_testing.pdf)
+10. [LT9 hypothesis testing](Lecture_Notes/UG_econometrics/LT9_testing_Oct18.pdf) (updated: Oct 18, 2022)
 11. [LT10 multiple regression](Lecture_Notes/UG_econometrics/LT10_mreg.pdf)
 12. [LT11 R squared](Lecture_Notes/UG_econometrics/LT11_R2.pdf)
 13. [LT12 multiple regression properties](Lecture_Notes/UG_econometrics/LT12_mreg_properties.pdf)
