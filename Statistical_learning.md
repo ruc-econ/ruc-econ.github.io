@@ -30,7 +30,7 @@ title: Statistical Learning
 17. [LyX模版](Lecture_Notes/Statistical_learning/模版.lyx)，[bib](Lecture_Notes/Statistical_learning/模版.bib)
 
 ### 3.Homework
-1. [Homework 1](Homeworks/Statistical_learning/HW1.pdf), due: Oct 19
+1. [Homework 1](Homeworks/Statistical_learning/HW1.pdf), due: Oct 19; [answer](Homeworks/Statistical_learning/HW1_conceptual_answer.pdf)
 2. [Homework 2](Homeworks/Statistical_learning/HW2.pdf), due: Nov 3
 
 ### 4.Labs
