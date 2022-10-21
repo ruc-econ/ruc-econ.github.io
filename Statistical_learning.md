@@ -31,6 +31,7 @@ title: Statistical Learning
 
 ### 3.Homework
 1. [Homework 1](Homeworks/Statistical_learning/HW1.pdf), due: Oct 19
+2. [Homework 2](Homeworks/Statistical_learning/HW2.pdf), due: Nov 3
 
 ### 4.Labs
 1. R Markdown cheatsheets: [1](Lecture_Notes/Statistical_learning/rmarkdown-cheatsheet.pdf), [2](Lecture_Notes/Statistical_learning/rmarkdown.pdf)
