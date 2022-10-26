@@ -49,3 +49,4 @@ title: Undergraduate Econometrics
 ### 3. Homework
 1. [HW1](Homeworks/UG_econometrics/HW1.pdf), due: Oct 12; [HW 1 answer](Homeworks/UG_econometrics/HW1_with_answer.pdf)
 2. [HW2](Homeworks/UG_econometrics/HW2.pdf), due: Oct 26
+3. [HW3](Homeworks/UG_econometrics/HW3.pdf), due: Nov 9
