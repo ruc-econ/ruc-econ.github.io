@@ -36,5 +36,5 @@ title: Postgraduate Econometrics
 8. [bootstrap](Lecture_Notes/PG_econometrics/bootstrap.pdf)
 
 ### 4. Homework
-1. [HW1](Homeworks/PG_econometrics/HW1_2022.pdf), due: Oct 25
+1. [HW1](Homeworks/PG_econometrics/HW1_2022.pdf), due: Oct 25; [answer](Homeworks/PG_econometrics/HW1_answer_2022.pdf)
 2. [HW2](Homeworks/PG_econometrics/HW2_2022.pdf), due: Nov 8 
