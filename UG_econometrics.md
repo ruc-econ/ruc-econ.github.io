@@ -25,7 +25,7 @@ title: Undergraduate Econometrics
 10. [LT9 hypothesis testing](Lecture_Notes/UG_econometrics/LT9_testing_Oct18.pdf) (updated: Oct 18, 2022)
 11. [LT10 multiple regression](Lecture_Notes/UG_econometrics/LT10_mreg.pdf)
 12. [LT11 R squared](Lecture_Notes/UG_econometrics/LT11_R2.pdf)
-13. [LT12 multiple regression properties](Lecture_Notes/UG_econometrics/LT12_mreg_properties.pdf)
+13. [LT12 multiple regression properties](Lecture_Notes/UG_econometrics/LT_12_mreg_properties_Oct27.pdf) (updated: Oct 27, 2022)
 14. [LT13 multiple regression testing](Lecture_Notes/UG_econometrics/LT_13_mreg_testing_oct28.pdf) (updated: Oct 28)
 15. [LT14 dummy variables](Lecture_Notes/UG_econometrics/LT14_dummy.pdf)
 16. [LT15 consistency](Lecture_Notes/UG_econometrics/LT15_consistency.pdf)
