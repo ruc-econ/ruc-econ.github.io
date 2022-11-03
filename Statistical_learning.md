@@ -32,6 +32,7 @@ title: Statistical Learning
 ### 3.Homework
 1. [Homework 1](Homeworks/Statistical_learning/HW1.pdf), due: Oct 19; [answer](Homeworks/Statistical_learning/HW1_conceptual_answer.pdf)
 2. [Homework 2](Homeworks/Statistical_learning/HW2.pdf), due: Nov 3
+3. [Homework 3](Homeworks/Statistical_learning/HW3.pdf), due: Nov 17
 
 ### 4.Labs
 1. R Markdown cheatsheets: [1](Lecture_Notes/Statistical_learning/rmarkdown-cheatsheet.pdf), [2](Lecture_Notes/Statistical_learning/rmarkdown.pdf)
@@ -41,6 +42,7 @@ title: Statistical Learning
 5. [lab2.rmd](Lecture_Notes/Statistical_learning/lab2 regression.Rmd), [lab2.pdf](Lecture_Notes/Statistical_learning/lab2 regression.pdf)
 6. [lab3.rmd](Lecture_Notes/Statistical_learning/lab3 classification.Rmd), [lab3.pdf](Lecture_Notes/Statistical_learning/lab3 classification.pdf)
 7. [lab4.rmd](Homeworks/Statistical_learning/lab4 cv.Rmd), [lab4.pdf](Homeworks/Statistical_learning/lab4-cv.pdf)
+8. [lab5.rmd](Lecture_Notes/Statistical_learning/lab5 model selection.Rmd), [lab5.pdf](Lecture_Notes/Statistical_learning/lab5-model-selection.pdf)
 
 ### 5. Reference
 * Adaptive LASSO: [Zou 2006](References/Statistical_learning/Zou-The Adaptive Lasso and Its Oracle Properties-2012-Journal of the American Statistical Association.pdf)
