@@ -49,6 +49,6 @@ title: Undergraduate Econometrics
 ### 3. Homework
 1. [HW1](Homeworks/UG_econometrics/HW1.pdf), due: Oct 12; [HW 1 answer](Homeworks/UG_econometrics/HW1_with_answer.pdf)
 2. [HW2](Homeworks/UG_econometrics/HW2.pdf), due: Oct 26; [HW 2 answer](Homeworks/UG_econometrics/HW2_answer.pdf)
-3. [HW3](Homeworks/UG_econometrics/HW3.pdf), due: Nov 9
+3. [HW3](Homeworks/UG_econometrics/HW3.pdf), due: Nov 9; [HW3 answer](Homeworks/UG_econometrics/HW3_answer.pdf)
 4. [Midterm 2021](Homeworks/UG_econometrics/Midterm_2021.pdf)
 5. [HW4](Homeworks/UG_econometrics/HW4_2022.pdf), no due date; [HW4 answer](Homeworks/UG_econometrics/HW4_2022_answer.pdf)
