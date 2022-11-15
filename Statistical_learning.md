@@ -31,7 +31,7 @@ title: Statistical Learning
 
 ### 3.Homework
 1. [Homework 1](Homeworks/Statistical_learning/HW1.pdf), due: Oct 19; [answer](Homeworks/Statistical_learning/HW1_conceptual_answer.pdf)
-2. [Homework 2](Homeworks/Statistical_learning/HW2.pdf), due: Nov 3
+2. [Homework 2](Homeworks/Statistical_learning/HW2.pdf), due: Nov 3; [answer](Homeworks/Statistical_learning/HW2_answer.pdf)
 3. [Homework 3](Homeworks/Statistical_learning/HW3.pdf), due: Nov 17
 
 ### 4.Labs
