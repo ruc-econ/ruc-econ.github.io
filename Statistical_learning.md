@@ -18,7 +18,7 @@ title: Statistical Learning
 5. [LT4 classification](Lecture_Notes/Statistical_learning/LT4_classification_oct28.pdf), updated: Oct 28
 6. [LT5 cv and bootstrap](Lecture_Notes/Statistical_learning/LT5_resampling_oct21.pdf), updated: Oct 21
 7. [LT6 model selection](Lecture_Notes/Statistical_learning/LT6_model_selection_nov04.pdf), updated: Nov 04
-8. [LT7 nonlinear model](Lecture_Notes/Statistical_learning/LT7_nonlinear model.pdf)
+8. [LT7 nonlinear model](Lecture_Notes/Statistical_learning/LT7_nonlinear_Nov16.pdf), updated: Nov 16, 2022
 9. [LT8 tree](Lecture_Notes/Statistical_learning/LT8_tree_dec25.pdf), updated: Dec 25
 10. [LT9 recap](Lecture_Notes/Statistical_learning/LT9_recap.pdf)
 11. [final project](Lecture_Notes/Statistical_learning/final project updated.pdf), updated: Dec 26
