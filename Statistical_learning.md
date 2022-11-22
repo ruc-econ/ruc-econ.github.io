@@ -20,14 +20,15 @@ title: Statistical Learning
 7. [LT6 model selection](Lecture_Notes/Statistical_learning/LT6_model_selection_nov04.pdf), updated: Nov 04
 8. [LT7 nonlinear model](Lecture_Notes/Statistical_learning/LT7_nonlinear_Nov16.pdf), updated: Nov 16, 2022
 9. [LT8 tree](Lecture_Notes/Statistical_learning/LT8_tree_dec25.pdf), updated: Dec 25
-10. [LT9 recap](Lecture_Notes/Statistical_learning/LT9_recap.pdf)
-11. [final project](Lecture_Notes/Statistical_learning/final project updated.pdf), updated: Dec 26
-12. [LT10 adaptive LASSO](Lecture_Notes/Statistical_learning/LT10_LASSO.pdf)
-13. [LT11 hd LASSO](Lecture_Notes/Statistical_learning/LT11_hd_LASSO.pdf)
-14. [LT12 double LASSO](Lecture_Notes/Statistical_learning/LT12_double_LASSO_dec8.pdf), updated: Dec 8
-15. [LT13 IV LASSO](Lecture_Notes/Statistical_learning/LT13_LASSO_IV.pdf), updated: Dec 16
-16. [LT14 causal forests](Lecture_Notes/Statistical_learning/LT14_causal_forests_dec30.pdf), updated: Dec 30
-17. [LyX模版](Lecture_Notes/Statistical_learning/模版.lyx)，[bib](Lecture_Notes/Statistical_learning/模版.bib)
+10. [Deep learning](Lecture_Notes/Statistical_learning/deep_learning.pdf)
+11. [LT9 recap](Lecture_Notes/Statistical_learning/LT9_recap.pdf)
+12. [final project](Lecture_Notes/Statistical_learning/final project updated.pdf), updated: Dec 26
+13. [LT10 adaptive LASSO](Lecture_Notes/Statistical_learning/LT10_LASSO.pdf)
+14. [LT11 hd LASSO](Lecture_Notes/Statistical_learning/LT11_hd_LASSO.pdf)
+15. [LT12 double LASSO](Lecture_Notes/Statistical_learning/LT12_double_LASSO_dec8.pdf), updated: Dec 8
+16. [LT13 IV LASSO](Lecture_Notes/Statistical_learning/LT13_LASSO_IV.pdf), updated: Dec 16
+17. [LT14 causal forests](Lecture_Notes/Statistical_learning/LT14_causal_forests_dec30.pdf), updated: Dec 30
+18. [LyX模版](Lecture_Notes/Statistical_learning/模版.lyx)，[bib](Lecture_Notes/Statistical_learning/模版.bib)
 
 ### 3.Homework
 1. [Homework 1](Homeworks/Statistical_learning/HW1.pdf), due: Oct 19; [answer](Homeworks/Statistical_learning/HW1_conceptual_answer.pdf)
