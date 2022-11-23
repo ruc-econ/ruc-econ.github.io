@@ -46,6 +46,7 @@ title: Statistical Learning
 7. [lab4.rmd](Homeworks/Statistical_learning/lab4 cv.Rmd), [lab4.pdf](Homeworks/Statistical_learning/lab4-cv.pdf)
 8. [lab5.rmd](Lecture_Notes/Statistical_learning/lab5 model selection.Rmd), [lab5.pdf](Lecture_Notes/Statistical_learning/lab5-model-selection.pdf)
 9. [lab6.rmd](Lecture_Notes/Statistical_learning/lab6 nonlinear.Rmd), [lab6.pdf](Lecture_Notes/Statistical_learning/lab6-nonlinear.pdf)
+10. [lab7.rmd](Lecture_Notes/Statistical_learning/lab7 trees.Rmd), [lab7.pdf](Lecture_Notes/Statistical_learning/lab7-trees.pdf)
 
 ### 5. Reference
 * Adaptive LASSO: [Zou 2006](References/Statistical_learning/Zou-The Adaptive Lasso and Its Oracle Properties-2012-Journal of the American Statistical Association.pdf)
