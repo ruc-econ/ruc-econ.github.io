@@ -20,7 +20,7 @@ title: Statistical Learning
 7. [LT6 model selection](Lecture_Notes/Statistical_learning/LT6_model_selection_nov04.pdf), updated: Nov 04
 8. [LT7 nonlinear model](Lecture_Notes/Statistical_learning/LT7_nonlinear_Nov16.pdf), updated: Nov 16, 2022
 9. [LT8 tree](Lecture_Notes/Statistical_learning/LT8_tree_Nov23.pdf), updated: Nov 23, 2022
-10. [Deep learning](Lecture_Notes/Statistical_learning/deep_learning.pdf)
+10. [Deep learning](Lecture_Notes/Statistical_learning/deep_learning_Nov24.pdf)
 11. [LT9 recap](Lecture_Notes/Statistical_learning/LT9_recap.pdf)
 12. [final project](Lecture_Notes/Statistical_learning/final project updated.pdf), updated: Dec 26
 13. [LT10 adaptive LASSO](Lecture_Notes/Statistical_learning/LT10_LASSO.pdf)
