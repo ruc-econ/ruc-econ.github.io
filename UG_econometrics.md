@@ -32,7 +32,7 @@ title: Undergraduate Econometrics
 17. [LT16 asy normality](Lecture_Notes/UG_econometrics/LT16_asy_norm.pdf)
 18. [LT17 misspecification](Lecture_Notes/UG_econometrics/LT_17_misspec_Nov23.pdf) (updated: Nov 23, 2022)
 19. [LT18 asymptotic variance](Lecture_Notes/UG_econometrics/LT_18_asy_var_Nov23.pdf) (updated: Nov 23, 2022)
-20. [LT19 IV](Lecture_Notes/UG_econometrics/LT19_IV.pdf)
+20. [LT19 IV](Lecture_Notes/UG_econometrics/LT19_IV_Nov30.pdf) (updated: Nov 30, 2022)
 21. [LT20 2SLS](Lecture_Notes/UG_econometrics/LT20_2SLS.pdf); [intro to GMM](Homeworks/UG_econometrics/GMM.pdf)
 22. [LT21 Hausman](Lecture_Notes/UG_econometrics/LT21_Hausman.pdf)
 23. [LT22 MLE](Lecture_Notes/UG_econometrics/LT22_MLE.pdf)
@@ -52,4 +52,5 @@ title: Undergraduate Econometrics
 3. [HW3](Homeworks/UG_econometrics/HW3.pdf), due: Nov 9; [HW3 answer](Homeworks/UG_econometrics/HW3_answer.pdf)
 4. [Midterm 2021](Homeworks/UG_econometrics/Midterm_2021.pdf)
 5. [HW4](Homeworks/UG_econometrics/HW4_2022.pdf), no due date; [HW4 answer](Homeworks/UG_econometrics/HW4_2022_answer.pdf)
-6. [HW5](Homeworks/UG_econometrics/HW5.pdf)m due: Nov 30
+6. [HW5](Homeworks/UG_econometrics/HW5.pdf), due: Nov 30
+7. [HW6](Homeworks/UG_econometrics/HW6_2022.pdf)
