@@ -26,7 +26,7 @@ title: Statistical Learning
 13. [LT10 adaptive LASSO](Lecture_Notes/Statistical_learning/LT10_LASSO.pdf)
 14. [LT11 hd LASSO](Lecture_Notes/Statistical_learning/LT11_hd_LASSO.pdf)
 15. [LT12 double LASSO](Lecture_Notes/Statistical_learning/LT12_double_LASSO_dec8.pdf), updated: Dec 8
-16. [LT13 IV LASSO](Lecture_Notes/Statistical_learning/LT13_LASSO_IV.pdf), updated: Dec 16
+16. [LT13 IV LASSO](Lecture_Notes/Statistical_learning/LT13_LASSO_IV_Dec9.pdf), updated: Dec 14, 2022
 17. [LT14 causal forests](Lecture_Notes/Statistical_learning/LT14_causal_forests_dec30.pdf), updated: Dec 30
 18. [LyX模版](Lecture_Notes/Statistical_learning/模版.lyx)，[bib](Lecture_Notes/Statistical_learning/模版.bib)
 
