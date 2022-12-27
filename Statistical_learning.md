@@ -51,7 +51,8 @@ title: Statistical Learning
 11. [lab8.rmd](Lecture_Notes/Statistical_learning/lab8_adaptive_LASSO.Rmd), [lab8.pdf](Lecture_Notes/Statistical_learning/lab8_adaptive_LASSO.pdf)
 12. [lab9.rmd](Lecture_Notes/Statistical_learning/lab9_Post_LASSO.Rmd), [lab9.pdf](Lecture_Notes/Statistical_learning/lab9_Post_LASSO.pdf)
 13. [lab10.rmd](Lecture_Notes/Statistical_learning/lab10_double_LASSO.Rmd), [lab10.pdf](Lecture_Notes/Statistical_learning/lab10_double_LASSO.pdf)
-14. [lab11.rmd](Lecture_Notes/Statistical_learning/lab11_IV.Rmd), [lab10.pdf](Lecture_Notes/Statistical_learning/lab11_IV.pdf)
+14. [lab11.rmd](Lecture_Notes/Statistical_learning/lab11_IV.Rmd), [lab11.pdf](Lecture_Notes/Statistical_learning/lab11_IV.pdf)
+15. [lab12.rmd](Lecture_Notes/Statistical_learning/lab12_causal.Rmd), [lab12.pdf](Lecture_Notes/Statistical_learning/lab12_causal.pdf)
 
 ### 5. Reference
 * Adaptive LASSO: [Zou 2006](References/Statistical_learning/Zou-The Adaptive Lasso and Its Oracle Properties-2012-Journal of the American Statistical Association.pdf)
@@ -63,3 +64,4 @@ title: Statistical Learning
 * Causal trees and forests: [Athey and Imbens, 2016](References/Statistical_learning/Athey-Recursive partitioning for heterogeneous causal effects-2016-Proceedings of the National Academy of Sciences.pdf); [Wager and Athey, 2018](References/Statistical_learning/Wager-Estimation and Inference of Heterogeneous Treatment Effects using Random Forests-2018-Journal of the American Statistical Association.pdf)
 * Causal forest application: [Athey and Wager, 2019](References/Statistical_learning/Athey-Estimating Treatment Effects with Causal Forests- An Application-2019-Observational Studies.pdf)
 * Inverse probability weighting estimation: [Hirano, Imbens and Ridder, 2003](References/Statistical_learning/Hirano-Efficient Estimation of Average Treatment Effects Using the Estimated Propensity Score-2003-Econometrica.pdf)
+* Double LASSO for linear panel models: [Belloni, Chernozhukov, Hansen and Kozbur, 2015](Lecture_Notes/Statistical_learning/Belloni-Inference in High-Dimensional Panel Models With an Application to Gun Control-2016-Journal of Business & Economic Statistics.pdf); STATA code: https://statalasso.github.io/docs/pdslasso/pdslasso_panel/ 
