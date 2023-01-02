@@ -54,5 +54,5 @@ title: Undergraduate Econometrics
 5. [HW4](Homeworks/UG_econometrics/HW4_2022.pdf), no due date; [HW4 answer](Homeworks/UG_econometrics/HW4_2022_answer.pdf)
 6. [HW5](Homeworks/UG_econometrics/HW5.pdf), due: Nov 30; [HW5 answer](Homeworks/UG_econometrics/HW5_answer.pdf)
 7. [HW6](Homeworks/UG_econometrics/HW6_2022.pdf), due: Dec 14; [HW6 answer](Homeworks/UG_econometrics/HW6_2022_answer.pdf)
-8. [HW7](Homeworks/UG_econometrics/HW7.pdf), due: Dec 28
+8. [HW7](Homeworks/UG_econometrics/HW7.pdf), due: Dec 28; [HW7 answer](Homeworks/UG_econometrics/HW7_answer.pdf)
 9. [Final 2021](Homeworks/UG_econometrics/final_2021.pdf)
