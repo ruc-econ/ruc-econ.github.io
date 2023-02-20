@@ -9,8 +9,8 @@ title: Undergraduate Econometrics
 * Office: 北校区一号楼西配楼106
 * TA: 杨世祺
 * Email: shiqiyang@ruc.edu.cn
-* Time: 周二 14:00-15:30，周三8:00-9:30
-* Venue: 立德407，明商0208
+* Time: 周一 18:00-19:30，周三18:00-19:30
+* Venue: 教二2101
 
 ### 2. Lecture Slides
 1. [syllabus](https://ruc-econ.github.io/Lecture_Notes/UG_econometrics/ug econometrics syllabus.pdf)
@@ -45,14 +45,3 @@ title: Undergraduate Econometrics
 30. [LT28 pooling](Lecture_Notes/UG_econometrics/LT28_pooling.pdf)
 31. [LT29 panel](Lecture_Notes/UG_econometrics/LT29_panel.pdf)
 32. [LT30 scm](Lecture_Notes/UG_econometrics/LT30_SC.pdf)
-
-### 3. Homework
-1. [HW1](Homeworks/UG_econometrics/HW1.pdf), due: Oct 12; [HW 1 answer](Homeworks/UG_econometrics/HW1_with_answer.pdf)
-2. [HW2](Homeworks/UG_econometrics/HW2.pdf), due: Oct 26; [HW 2 answer](Homeworks/UG_econometrics/HW2_answer.pdf)
-3. [HW3](Homeworks/UG_econometrics/HW3.pdf), due: Nov 9; [HW3 answer](Homeworks/UG_econometrics/HW3_answer.pdf)
-4. [Midterm 2021](Homeworks/UG_econometrics/Midterm_2021.pdf)
-5. [HW4](Homeworks/UG_econometrics/HW4_2022.pdf), no due date; [HW4 answer](Homeworks/UG_econometrics/HW4_2022_answer.pdf)
-6. [HW5](Homeworks/UG_econometrics/HW5.pdf), due: Nov 30; [HW5 answer](Homeworks/UG_econometrics/HW5_answer.pdf)
-7. [HW6](Homeworks/UG_econometrics/HW6_2022.pdf), due: Dec 14; [HW6 answer](Homeworks/UG_econometrics/HW6_2022_answer.pdf)
-8. [HW7](Homeworks/UG_econometrics/HW7.pdf), due: Dec 28; [HW7 answer](Homeworks/UG_econometrics/HW7_answer.pdf)
-9. [Final 2021](Homeworks/UG_econometrics/final_2021.pdf)
