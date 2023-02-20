@@ -10,7 +10,7 @@ title: Undergraduate Econometrics
 * TA: 杨世祺
 * Email: shiqiyang@ruc.edu.cn
 * Time: 周一 18:00-19:30，周三18:00-19:30
-* Venue: 教二2101
+* Venue: 教二2102
 
 ### 2. Lecture Slides
 1. [syllabus](https://ruc-econ.github.io/Lecture_Notes/UG_econometrics/ug econometrics syllabus.pdf)
