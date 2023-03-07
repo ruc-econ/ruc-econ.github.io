@@ -17,7 +17,7 @@ title: Undergraduate Econometrics
 2. [LT1 introduction](https://ruc-econ.github.io/Lecture_Notes/UG_econometrics/LT_1_intro.pdf)
 3. [LT2 review of probability](Lecture_Notes/UG_econometrics/LT_02_review_Oct01.pdf), (updated: Oct 1, 2022)
 4. [LT3 conditional expectation](Lecture_Notes/UG_econometrics/LT_3_con_exp_Oct01.pdf), (updated: Oct 1, 2022)
-5. [LT4 simple linear regression](Lecture_Notes/UG_econometrics/LT_04_simple.pdf)
+5. [LT4 simple linear regression](Lecture_Notes/UG_econometrics/LT_04_simple_Mar07.pdf), (updated: Mar 7, 2023)
 6. [LT5 properties of simple linear regression](Lecture_Notes/UG_econometrics/LT_05_simple_properties_Oct04.pdf)
 7. [LT6 Gauss Markov](Lecture_Notes/UG_econometrics/LT_06_gauss_markov_Oct05.pdf)
 8. [LT7 standard errors](Lecture_Notes/UG_econometrics/LT_07_errors_variance.pdf)
