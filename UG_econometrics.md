@@ -45,3 +45,6 @@ title: Undergraduate Econometrics
 30. [LT28 pooling](Lecture_Notes/UG_econometrics/LT28_pooling.pdf)
 31. [LT29 panel](Lecture_Notes/UG_econometrics/LT29_panel.pdf)
 32. [LT30 scm](Lecture_Notes/UG_econometrics/LT30_SC.pdf)
+
+### 3. Homework
+1. [HW1](Homeworks/UG_econometrics/HW1.pdf), due: March 22
