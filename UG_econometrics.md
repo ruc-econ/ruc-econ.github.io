@@ -48,3 +48,4 @@ title: Undergraduate Econometrics
 
 ### 3. Homework
 1. [HW1](Homeworks/UG_econometrics/HW1.pdf), due: March 22
+2. [HW2](Homeworks/UG_econometrics/HW2.pdf), due: April 5
