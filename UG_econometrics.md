@@ -47,5 +47,6 @@ title: Undergraduate Econometrics
 32. [LT30 scm](Lecture_Notes/UG_econometrics/LT30_SC.pdf)
 
 ### 3. Homework
-1. [HW1](Homeworks/UG_econometrics/HW1.pdf), due: March 22
-2. [HW2](Homeworks/UG_econometrics/HW2.pdf), due: April 5
+1. [HW1](Homeworks/UG_econometrics/HW1.pdf), due: March 22; [HW1 answer](Homeworks/UG_econometrics/HW1_with_answer.pdf)
+2. [HW2](Homeworks/UG_econometrics/HW2.pdf), due: April 5; [HW2 answer](Homeworks/UG_econometrics/HW2_with_answer.pdf)
+3. [HW3](Homeworks/UG_econometrics/HW3.pdf), due: April 19
