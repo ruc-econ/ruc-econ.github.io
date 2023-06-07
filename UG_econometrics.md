@@ -33,7 +33,7 @@ title: Undergraduate Econometrics
 18. [LT17 misspecification](Lecture_Notes/UG_econometrics/LT_17_misspec_Nov23.pdf) (updated: Nov 23, 2022)
 19. [LT18 asymptotic variance](Lecture_Notes/UG_econometrics/LT_18_asy_var_Nov23.pdf) (updated: Nov 23, 2022)
 20. [LT19 IV](Lecture_Notes/UG_econometrics/LT19_IV_Nov30.pdf) (updated: Nov 30, 2022)
-21. [LT20 2SLS](Lecture_Notes/UG_econometrics/LT20_2SLS.pdf); [intro to GMM](Homeworks/UG_econometrics/GMM.pdf)
+21. [LT20 2SLS](Lecture_Notes/UG_econometrics/LT20_2SLS_Jun_7.pdf) (updated: Jun 07, 2023); [intro to GMM](Homeworks/UG_econometrics/GMM.pdf)
 22. [LT21 Hausman](Lecture_Notes/UG_econometrics/LT_21_robustness_Jun_7.pdf) (updated: Jun 07, 2023)
 23. [LT22 MLE](Lecture_Notes/UG_econometrics/LT22_MLE_Jun_7.pdf) (updated: Jun 07, 2023)
 24. [LT23 binary](Lecture_Notes/UG_econometrics/LT23_binary_Jun_7.pdf) (updated: Jun 07, 2023); STATA: https://www3.nd.edu/~rwilliam/stats2/Logistic-Stata.pdf
