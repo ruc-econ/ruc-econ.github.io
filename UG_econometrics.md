@@ -34,16 +34,16 @@ title: Undergraduate Econometrics
 19. [LT18 asymptotic variance](Lecture_Notes/UG_econometrics/LT_18_asy_var_Nov23.pdf) (updated: Nov 23, 2022)
 20. [LT19 IV](Lecture_Notes/UG_econometrics/LT19_IV_Nov30.pdf) (updated: Nov 30, 2022)
 21. [LT20 2SLS](Lecture_Notes/UG_econometrics/LT20_2SLS.pdf); [intro to GMM](Homeworks/UG_econometrics/GMM.pdf)
-22. [LT21 Hausman](Lecture_Notes/UG_econometrics/LT21_Hausman.pdf)
-23. [LT22 MLE](Lecture_Notes/UG_econometrics/LT22_MLE.pdf)
-24. [LT23 binary](Lecture_Notes/UG_econometrics/LT23_binary.pdf); STATA: https://www3.nd.edu/~rwilliam/stats2/Logistic-Stata.pdf
-25. [LT24 multinomial](Lecture_Notes/UG_econometrics/LT24_multinomial.pdf); STATA: [conditional logit](References/UG_econometrics/rasclogit.pdf), [ordered logit](References/UG_econometrics/rologit.pdf), [multinomial logit](References/UG_econometrics/rmlogit.pdf)
-26. [LT25 censor](Lecture_Notes/UG_econometrics/LT25_lim.pdf); STATA: [tobit](Lecture_Notes/UG_econometrics/rtobit.pdf), [Heckman](Lecture_Notes/UG_econometrics/rheckman.pdf)
+22. [LT21 Hausman](Lecture_Notes/UG_econometrics/LT21_Hausman_Jun_7.pdf)
+23. [LT22 MLE](Lecture_Notes/UG_econometrics/LT22_MLE_Jun_7.pdf)
+24. [LT23 binary](Lecture_Notes/UG_econometrics/LT23_binary_Jun_7.pdf); STATA: https://www3.nd.edu/~rwilliam/stats2/Logistic-Stata.pdf
+25. [LT24 multinomial](Lecture_Notes/UG_econometrics/LT24_multinomial_Jun_7.pdf); STATA: [conditional logit](References/UG_econometrics/rasclogit.pdf), [ordered logit](References/UG_econometrics/rologit.pdf), [multinomial logit](References/UG_econometrics/rmlogit.pdf)
+26. [LT25 censor](Lecture_Notes/UG_econometrics/LT25_lim_Jun_7.pdf); STATA: [tobit](Lecture_Notes/UG_econometrics/rtobit.pdf), [Heckman](Lecture_Notes/UG_econometrics/rheckman.pdf)
 27. [STATA tutorial](Lecture_Notes/UG_econometrics/Stata Tutorial.pdf), [data](Lecture_Notes/UG_econometrics/data.zip)
 28. [LT26 treatment](Lecture_Notes/UG_econometrics/LT26_treatment.pdf), updated, Dec 17
-29. [LT27 resampling](Lecture_Notes/UG_econometrics/LT27_resampling_dec25.pdf), updated, Dec 25
-30. [LT28 pooling](Lecture_Notes/UG_econometrics/LT28_pooling.pdf)
-31. [LT29 panel](Lecture_Notes/UG_econometrics/LT29_panel.pdf)
+29. [LT27 resampling](Lecture_Notes/UG_econometrics/LT27_resampling_Jun_7.pdf), updated, Dec 25
+30. [LT28 pooling](Lecture_Notes/UG_econometrics/LT28_pooling_Jun_7.pdf)
+31. [LT29 panel](Lecture_Notes/UG_econometrics/LT29_panel_Jun_7.pdf)
 32. [LT30 scm](Lecture_Notes/UG_econometrics/LT30_SC.pdf)
 
 ### 3. Homework
