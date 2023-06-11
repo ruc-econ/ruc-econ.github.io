@@ -54,3 +54,4 @@ title: Undergraduate Econometrics
 5. [Midterm 2022 with answer](Homeworks/UG_econometrics/midterm_2022_answer.pdf)
 6. [HW5](Homeworks/UG_econometrics/HW5.pdf), due: May 24; [HW5 answer](Homeworks/UG_econometrics/HW5_answer.pdf)
 7. [HW6](Homeworks/UG_econometrics/HW6.pdf), due: June 12
+8. [Final 2022 with answer](Homeworks/UG_econometrics/Final_2022_new_answer.pdf)
