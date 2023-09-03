@@ -20,24 +20,18 @@ title: Statistical Learning
 7. [LT6 model selection](Lecture_Notes/Statistical_learning/LT6_model_selection_nov04.pdf), updated: Nov 04
 8. [LT7 nonlinear model](Lecture_Notes/Statistical_learning/LT7_nonlinear_Nov16.pdf), updated: Nov 16, 2022
 9. [LT8 tree](Lecture_Notes/Statistical_learning/LT8_tree_Nov23.pdf), updated: Nov 23, 2022
-10. [Deep learning](Lecture_Notes/Statistical_learning/deep_learning_Nov24.pdf)
-11. [LT9 recap](Lecture_Notes/Statistical_learning/LT9_recap.pdf)
+10. [LT9 deep learning](Lecture_Notes/Statistical_learning/deep_learning_Nov24.pdf)
+11. [LT10 recap](Lecture_Notes/Statistical_learning/LT9_recap.pdf)
 12. [final project](Lecture_Notes/Statistical_learning/final project updated.pdf), updated: Dec 26
-13. [LT10 adaptive LASSO](Lecture_Notes/Statistical_learning/LT10_LASSO.pdf)
-14. [LT11 hd LASSO](Lecture_Notes/Statistical_learning/LT11_hd_LASSO.pdf)
-15. [LT12 double LASSO](Lecture_Notes/Statistical_learning/LT12_double_LASSO_dec8.pdf), updated: Dec 8
-16. [LT13 IV LASSO](Lecture_Notes/Statistical_learning/LT13_LASSO_IV_Dec9.pdf), updated: Dec 14, 2022
-17. [LT14 causal forests](Lecture_Notes/Statistical_learning/LT14_causal_forests_dec30.pdf), updated: Dec 30
-18. [LyX模版](Lecture_Notes/Statistical_learning/模版.lyx)，[bib](Lecture_Notes/Statistical_learning/模版.bib)
+13. [LT11 adaptive LASSO](Lecture_Notes/Statistical_learning/LT10_LASSO.pdf)
+14. [LT12 hd LASSO](Lecture_Notes/Statistical_learning/LT11_hd_LASSO.pdf)
+15. [LT13 double LASSO](Lecture_Notes/Statistical_learning/LT12_double_LASSO_dec8.pdf), updated: Dec 8
+16. [LT14 IV LASSO](Lecture_Notes/Statistical_learning/LT13_LASSO_IV_Dec9.pdf), updated: Dec 14, 2022
+17. [LT15 causal forests](Lecture_Notes/Statistical_learning/LT14_causal_forests_dec30.pdf), updated: Dec 30
+18. [LT16 double ML]
+19. [LyX模版](Lecture_Notes/Statistical_learning/模版.lyx)，[bib](Lecture_Notes/Statistical_learning/模版.bib)
 
-### 3.Homework
-1. [Homework 1](Homeworks/Statistical_learning/HW1.pdf), due: Oct 19; [answer](Homeworks/Statistical_learning/HW1_conceptual_answer.pdf)
-2. [Homework 2](Homeworks/Statistical_learning/HW2.pdf), due: Nov 3; [answer](Homeworks/Statistical_learning/HW2_answer.pdf)
-3. [Homework 3](Homeworks/Statistical_learning/HW3.pdf), due: Nov 17; [answer](Homeworks/Statistical_learning/HW3_answer.pdf)
-4. [Homework 4](Homeworks/Statistical_learning/HW4.pdf), due: Dec 1; [answer](Homeworks/Statistical_learning/HW4_answer.pdf)
-5. [2021年论文题目](Homeworks/Statistical_learning/2021年已选论文.pdf)
-
-### 4.Labs
+### 3.Labs
 1. R Markdown cheatsheets: [1](Lecture_Notes/Statistical_learning/rmarkdown-cheatsheet.pdf), [2](Lecture_Notes/Statistical_learning/rmarkdown.pdf)
 2. [R Markdown tutorial](https://rmarkdown.rstudio.com/)
 3. [R tutorial](https://monashdatafluency.github.io/r-intro-2/)
@@ -54,7 +48,7 @@ title: Statistical Learning
 14. [lab11.rmd](Lecture_Notes/Statistical_learning/lab11_IV.Rmd), [lab11.pdf](Lecture_Notes/Statistical_learning/lab11_IV.pdf)
 15. [lab12.rmd](Lecture_Notes/Statistical_learning/lab12_causal.Rmd), [lab12.pdf](Lecture_Notes/Statistical_learning/lab12_causal.pdf)
 
-### 5. Reference
+### 4. Reference
 * Adaptive LASSO: [Zou 2006](References/Statistical_learning/Zou-The Adaptive Lasso and Its Oracle Properties-2012-Journal of the American Statistical Association.pdf)
 * Review papers: [Belloni and Chernozhukov](References/Statistical_learning/LASSO_LectureNotes_AfterFinal_ArXiV.pdf), [Chernozhukov, Hansen and Spindler](References/Statistical_learning/Chernozhukov-Valid Post-Selection and Post-Regularization Inference- An Elementary, General Approach-2015-Annual Review of Economics.pdf), [Athey and Imbens](References/Statistical_learning/Athey-Machine Learning Methods That Economists Should Know About-2019-Annual Review of Economics.pdf)
 * [High-dimensional econometrics in R](References/Statistical_learning/high dimensional metrics in R.pdf)
