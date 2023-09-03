@@ -7,8 +7,8 @@ title: Statistical Learning
 * Instructor: 马骏
 * Email: jun.ma@ruc.edu.cn
 * Office: 北校区一号楼西配楼106
-* Time: 周三18:00-20:25
-* Venue: 明商0208
+* Time: 周一18:00-20:25
+* Venue: 教二2407
 
 ### 2.Lecture Slides
 1. [syllabus](Lecture_Notes/Statistical_learning/syl_ML.pdf)
