@@ -45,14 +45,3 @@ title: Undergraduate Econometrics
 30. [LT28 pooling](Lecture_Notes/UG_econometrics/LT28_pooling_Jun_7.pdf) (updated: Jun 07, 2023)
 31. [LT29 panel](Lecture_Notes/UG_econometrics/LT29_panel_Jun_7.pdf) (updated: Jun 07, 2023)
 32. [LT30 scm](Lecture_Notes/UG_econometrics/LT30_SC.pdf)
-
-### 3. Homework
-1. [HW1](Homeworks/UG_econometrics/HW1.pdf), due: March 22; [HW1 answer](Homeworks/UG_econometrics/HW1_with_answer.pdf)
-2. [HW2](Homeworks/UG_econometrics/HW2.pdf), due: April 5; [HW2 answer](Homeworks/UG_econometrics/HW2_with_answer.pdf)
-3. [HW3](Homeworks/UG_econometrics/HW3.pdf), due: April 19; [HW3 answer](Homeworks/UG_econometrics/HW3_answer.pdf)
-4. [HW4](Homeworks/UG_econometrics/HW4.pdf), due: May 8; [HW4 answer](Homeworks/UG_econometrics/HW4_answer.pdf)
-5. [Midterm 2022 with answer](Homeworks/UG_econometrics/midterm_2022_answer.pdf)
-6. [HW5](Homeworks/UG_econometrics/HW5.pdf), due: May 24; [HW5 answer](Homeworks/UG_econometrics/HW5_answer.pdf)
-7. [HW6](Homeworks/UG_econometrics/HW6.pdf), due: June 12; [HW6 answer](Homeworks/UG_econometrics/HW6_answer.pdf)
-9. [Final 2022 with answer](Homeworks/UG_econometrics/Final_2022_new_answer.pdf)
-10. [HW7](Homeworks/UG_econometrics/HW7.pdf); [HW7 answer](Homeworks/UG_econometrics/HW7_answer.pdf)
